@@ -1,5 +1,6 @@
 import './App.css'
 import DynamicTable from './components/DynamicTable'
+import CountdownTimer from './components/CountdownTimer'
 import jsonData from './data/COAC_2024_ADULTOS_PRELIMINARES.json'
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
       </header>
 
       <main>
-        <DynamicTable data={jsonData} />
+        <CountdownTimer targetDate="2023-12-31T23:59:59" />
+        <DynamicTable data={jsonData} />l4
       </main>
     </>
   )
