@@ -14,8 +14,8 @@ function App() {
       </header>
 
       <main>
-        <CountdownTimer targetDate="2023-12-31T23:59:59" />
-        <DynamicTable data={jsonData} />l4
+        <CountdownTimer targetDate="2023-12-09T20:00:00" />
+        <DynamicTable data={jsonData} />
       </main>
     </>
   )
