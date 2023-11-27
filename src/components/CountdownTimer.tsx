@@ -35,23 +35,23 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
       <div className="grid grid-flow-col gap-5 text-center auto-cols-max mt-4 mb-4">
         <div className="flex flex-col p-2 bg-neutral rounded-box text-white">
           <span className="countdown font-mono text-5xl">{timeLeft.days}</span>
-          days
+          días
         </div>
         <div className="flex flex-col p-2 bg-neutral rounded-box text-white">
           <span className="countdown font-mono text-5xl">{timeLeft.hours}</span>
-          hours
+          horas
         </div>
         <div className="flex flex-col p-2 bg-neutral rounded-box text-white">
           <span className="countdown font-mono text-5xl">
             {timeLeft.minutes}
           </span>
-          min
+          minutos
         </div>
         <div className="flex flex-col p-2 bg-neutral rounded-box text-white">
           <span className="countdown font-mono text-5xl">
             {timeLeft.seconds}
           </span>
-          sec
+          segundos
         </div>
       </div>
     </div>

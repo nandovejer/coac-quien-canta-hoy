@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 interface Group {
   tipo: string;
   nombre: string;
-  autor?: string;
+  autor: string;
 }
 
 interface Data {
@@ -14,6 +14,17 @@ interface Data {
 interface DynamicTableProps {
   data: Data;
 }
+
+
+function createID(inputText: string, index: number): string {
+  const cleanedText = inputText.replace(/[^\w\s]/g, '');
+  const words = cleanedText.split(/\s+/);
+  const camelCaseText = words.map((word, wordIndex) => wordIndex === 0 ? word.toLowerCase() : word.charAt(0).toUpperCase() + word.slice(1)).join('');
+  const className = `author-${camelCaseText}${index}`;
+
+  return className;
+}
+
 
 const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -76,6 +87,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
                     ? "text-center  bg-pink-50 font-bold text-pink-700  text-white blinking"
                     : ""
                     }`;
+                  const uniqueId = createID(group.autor, index);
                   return (
                     <tr key={index} className={rowClass}>
                       <td className={cellClasses}>
@@ -85,7 +97,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
                         {group.tipo}
                       </td>
                       <td className="px-6 py-4">
-                        <strong  className="text-xl capitalize  text-ellipsis overflow-hidden">{group.autor ? `🚀${group.autor}` : ``}</strong>
+                        <strong id={uniqueId} className="text-xl capitalize  text-ellipsis overflow-hidden">{group.autor ? `🚀${group.autor}` : ``}</strong>
                         <p className="text-ellipsis overflow-hidden">{group.nombre}</p>
                       </td>
                     </tr>
