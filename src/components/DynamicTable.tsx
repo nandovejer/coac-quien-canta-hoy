@@ -5,6 +5,7 @@ interface Group {
   tipo: string;
   nombre: string;
   autor: string;
+  id: string;
 }
 
 interface Data {
@@ -87,7 +88,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
                     ? "text-center  bg-pink-50 font-bold text-pink-700  text-white blinking"
                     : ""
                     }`;
-                  const uniqueId = createID(group.autor, index);
+              
                   return (
                     <tr key={index} className={rowClass}>
                       <td className={cellClasses}>
@@ -97,7 +98,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
                         {group.tipo}
                       </td>
                       <td className="px-6 py-4">
-                        <strong id={uniqueId} className="text-xl capitalize  text-ellipsis overflow-hidden">{group.autor ? `🚀${group.autor}` : ``}</strong>
+                        <strong id={group.id} className="text-xl capitalize  text-ellipsis overflow-hidden">{group.autor ? `🚀${group.autor}` : ``}</strong>
                         <p className="text-ellipsis overflow-hidden">{group.nombre}</p>
                       </td>
                     </tr>
