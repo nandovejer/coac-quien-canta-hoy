@@ -1,11 +1,14 @@
 import './App.css'
 import DynamicTable from './components/DynamicTable'
 import CountdownTimer from './components/CountdownTimer'
-import jsonData from './data/COAC_2024_ADULTOS_PRELIMINARES.json'
-import formatAppData from './utils/formatAppData'
 import AuthorCloud from './components/AuthorCloud'
 import ScrollToTop from './components/OnTop'
 import Footer from './components/Footer'
+import formatAppData from './utils/formatAppData'
+
+import jsonData from './data/COAC_2024_ADULTOS_PRELIMINARES.json'
+import { DATE_PRELIMINARES } from './data/ConstantsCoac2024';
+
 function App() {
 
   const currentJsonData = formatAppData(jsonData);
@@ -20,7 +23,7 @@ function App() {
       </header>
 
       <main id="siteMain">
-        <CountdownTimer targetDate="2023-12-09T20:00:00" />
+        <CountdownTimer targetDate={DATE_PRELIMINARES} />
         <AuthorCloud AuthorCloudData={currentJsonData} />
         <DynamicTable data={currentJsonData} />
         <ScrollToTop />
