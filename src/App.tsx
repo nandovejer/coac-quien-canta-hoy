@@ -5,6 +5,7 @@ import jsonData from './data/COAC_2024_ADULTOS_PRELIMINARES.json'
 import formatAppData from './utils/formatAppData'
 import AuthorCloud from './components/AuthorCloud'
 import ScrollToTop from './components/OnTop'
+import Footer from './components/Footer'
 function App() {
 
   const currentJsonData = formatAppData(jsonData);
@@ -24,6 +25,7 @@ function App() {
         <DynamicTable data={currentJsonData} />
         <ScrollToTop />
       </main>
+      <Footer />
     </>
   )
 }
