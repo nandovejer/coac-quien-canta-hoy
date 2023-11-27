@@ -35,28 +35,25 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
   }, []);
 
   return (
-    <div className="sm:container sm:mx-auto p-4 my-2">
+    <div className="p-4 my-2 max-w-4xl mx-auto">
       {Object.entries(data).map(([date, groups]) => (
         <div key={date} className="mb-16 my-4">
           <h2 className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 uppercase">
             Sesión - {date.split("-").reverse().join("/")}
           </h2>
           <div className="overflow-x-auto scrollbar scrollbar-thumb-gray-500 scrollbar-track-gray-100 scrollbar-thin scrollbar-thumb-rounded">
-            <table className="min-w-full bg-white divide-y divide-gray-200">
-              <thead className=" bg-gradient-to-r from-blue-500 to-teal-400">
-                <tr>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
-                    Hora
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
-                    Tipo
-                  </th>
-                  <th className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
-                    Nombre
-                  </th>
-                </tr>
-              </thead>
-              <tbody className="bg-white divide-y divide-gray-200">
+            <section className="min-w-full bg-white divide-y divide-gray-200">
+              <header className="flex flex-auto bg-gradient-to-r from-blue-500 to-teal-400">
+
+                <div className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                  Hora / Tipo
+                </div>
+                <div className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
+                  Autor / Nombre de agrupación
+                </div>
+
+              </header>
+              <main className="bg-white divide-y divide-gray-200">
                 {groups.map((group, index) => {
                   // Calcular el horario en función del índice actual y el horario de inicio (20:00)
                   const startTime = new Date(`2023-11-26T20:00:00`);
@@ -75,29 +72,30 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
                     currentTime.getTime() <
                     currentRowTime.getTime() + timeIncrement * 60000;
 
-                  const rowClass = group.autor ? "bg-amber-50" : "";
-                  const cellClasses = `px-6 py-4 whitespace-nowrap ${isLive
-                    ? "text-center  bg-pink-50 font-bold text-pink-700  text-white blinking"
+                  const highlightRowClass = group.autor ? "bg-amber-50" : "";
+                  const rowClass = "flex flex-auto" + " " + highlightRowClass;
+                  const onAirClass = `${isLive
+                    ? " bg-pink-50 font-bold text-pink-700  text-white blinking"
                     : ""
                     }`;
-              
+
                   return (
-                    <tr key={index} className={rowClass}>
-                      <td className={cellClasses}>
-                        {isLive ? "📡EN DIRECTO" : formattedTime}
-                      </td>
-                      <td className="px-6 py-4 whitespace-nowrap">
-                        {group.tipo}
-                      </td>
-                      <td className="px-6 py-4">
+                    <article key={index} className={rowClass}>
+                      <div className="px-6 py-2 ">
+                        <div className="flex flex-col justify-center h-full w-20">
+                          <span className="">{group.tipo}</span>
+                          <span className={onAirClass}> {isLive ? "📡EN DIRECTO" : formattedTime}</span>
+                        </div>
+                      </div>
+                      <div className="px-6 py-4">
                         <strong id={group.id} className="text-xl capitalize  text-ellipsis overflow-hidden">{group.autor ? `🚀${group.autor}` : ``}</strong>
                         <p className="text-ellipsis overflow-hidden">{group.nombre}</p>
-                      </td>
-                    </tr>
+                      </div>
+                    </article>
                   );
                 })}
-              </tbody>
-            </table>
+              </main>
+            </section>
           </div>
         </div>
       ))}
