@@ -1,13 +1,14 @@
 import './App.css'
 import DynamicTable from './components/DynamicTable'
 import CountdownTimer from './components/CountdownTimer'
-import AuthorCloud from './components/AuthorCloud'
+// import AuthorCloud from './components/AuthorCloud'
 import ScrollToTop from './components/OnTop'
 import Footer from './components/Footer'
 import formatAppData from './utils/formatAppData'
 
 import jsonData from './data/COAC_2024_ADULTOS_PRELIMINARES.json'
 import { DATE_PRELIMINARES } from './data/ConstantsCoac2024';
+import SearchAuthor from './components/SearchAuthor'
 
 function App() {
 
@@ -24,7 +25,8 @@ function App() {
 
       <main id="siteMain">
         <CountdownTimer targetDate={DATE_PRELIMINARES} />
-        <AuthorCloud AuthorCloudData={currentJsonData} />
+        <SearchAuthor SearchAuthorData={currentJsonData} />
+        {/* <AuthorCloud AuthorCloudData={currentJsonData} /> */}
         <DynamicTable data={currentJsonData} />
         <ScrollToTop />
       </main>
