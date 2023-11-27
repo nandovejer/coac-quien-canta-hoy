@@ -43,9 +43,9 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
   }, []);
 
   return (
-    <div className="sm:container sm:mx-auto p-4">
+    <div className="sm:container sm:mx-auto p-4 my-2">
       {Object.entries(data).map(([date, groups]) => (
-        <div key={date} className="mb-8">
+        <div key={date} className="mb-16 my-4">
           <h2 className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 uppercase">
             Sesión - {date.split("-").reverse().join("/")}
           </h2>
