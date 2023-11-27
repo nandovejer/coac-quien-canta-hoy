@@ -1,41 +1,38 @@
 import React from 'react';
-interface Grupo {
+
+interface AuthorCloudGrupo {
     tipo: string;
     nombre: string;
     autor: string;
-    id: string;
+    id?: string;
 }
 
-interface JsonData {
-    [key: string]: Grupo[];
+// Asegurarse de que la clave sea de tipo string y su valor sea un array de AuthorCloudGrupo.
+interface AuthorCloudData {
+    [key: string]: AuthorCloudGrupo[];
 }
+
 interface AuthorCloudProps {
-    data: JsonData;
+    AuthorCloudData: AuthorCloudData;
 }
 
-const AuthorCloud: React.FC<AuthorCloudProps> = ({ data }) => {
-    // Extraer todos los autores de los datos
-    const autores = Object.values(data).flat().map(grupo => ({
-        autor: grupo.autor,
-        id: grupo.id
-    }));
-
+const AuthorCloud: React.FC<AuthorCloudProps> = ({ AuthorCloudData }) => {
     return (
         <aside className="bg-white p-6 rounded-lg shadow-lg w-full">
             <h2 className="text-lg font-semibold mb-4 text-center">Autores</h2>
             <div className="max-w-6xl flex flex-wrap gap-2 m-auto" role="list">
-                {Object.entries(data).map(([fecha, grupos]) =>
-                    grupos.map((grupo, index) => (
+                {Object.entries(AuthorCloudData).map(([fecha, grupos], fechaIndex) =>
+                    grupos.map((grupo, grupoIndex) => (
                         grupo.autor
                             ? <a
-                                key={index}
+                                key={`${fechaIndex}-${grupoIndex}`} // Mejora para la clave única
                                 href={`#${grupo.id}`}
                                 title={`Canta su ${grupo.tipo} el ${fecha}`}
                                 className="bg-blue-200 hover:bg-blue-300 py-1 px-2 rounded-lg text-sm"
                             >
                                 {grupo.autor}
                             </a>
-                            : ''
+                            : null
                     ))
                 )}
             </div>

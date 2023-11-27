@@ -5,7 +5,7 @@ interface Group {
   tipo: string;
   nombre: string;
   autor: string;
-  id: string;
+  id?: string;
 }
 
 interface Data {
@@ -17,14 +17,6 @@ interface DynamicTableProps {
 }
 
 
-function createID(inputText: string, index: number): string {
-  const cleanedText = inputText.replace(/[^\w\s]/g, '');
-  const words = cleanedText.split(/\s+/);
-  const camelCaseText = words.map((word, wordIndex) => wordIndex === 0 ? word.toLowerCase() : word.charAt(0).toUpperCase() + word.slice(1)).join('');
-  const className = `author-${camelCaseText}${index}`;
-
-  return className;
-}
 
 
 const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {

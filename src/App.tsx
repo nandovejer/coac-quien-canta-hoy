@@ -20,7 +20,7 @@ function App() {
 
       <main id="siteMain">
         <CountdownTimer targetDate="2023-12-09T20:00:00" />
-        <AuthorCloud data={currentJsonData} />
+        <AuthorCloud AuthorCloudData={currentJsonData} />
         <DynamicTable data={currentJsonData} />
         <ScrollToTop />
       </main>
