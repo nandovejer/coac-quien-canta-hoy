@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 interface Group {
-  top: boolean;
+  top?: boolean;
   tipo: string;
   nombre: string;
   autor: string;
@@ -84,14 +84,14 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
 
                   return (
                     <article key={index} className={rowClass}>
-                      <div className="px-6 py-2 ">
+                      <div className="px-4 py-2 ">
                         <div className="flex flex-col justify-center h-full w-20">
                           <span className="">{group.tipo}</span>
                           <span className={onAirClass}> {isLive ? "📡EN DIRECTO" : formattedTime}</span>
                         </div>
                       </div>
-                      <div className="px-6 py-4">
-                        <strong id={group.id} className="text-xl capitalize  text-ellipsis overflow-hidden">
+                      <div className="px-4 py-4">
+                        <strong id={group.id} className="sm:text-xl capitalize  text-ellipsis overflow-hidden">
                           {group.autor ? (group.top ? `🔥${group.autor}🔥` : `👌 ${group.autor}`) : ''}
                         </strong>
                         <p className="text-ellipsis overflow-hidden">{group.nombre}</p>
