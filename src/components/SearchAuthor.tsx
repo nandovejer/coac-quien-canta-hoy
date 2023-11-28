@@ -26,13 +26,13 @@ const SearchAuthor: React.FC<SearchAuthorProps> = ({ SearchAuthorData }) => {
     }, {} as SearchAuthorData);
 
     return (
-        <aside className="bg-white p-6 rounded-lg shadow-lg w-full">
+        <aside className="bg-white p-6 rounded-lg shadow-lg w-full flex flex-col ">
             <h2 className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400  text-center">Busca el autor/a destacado/a</h2>
 
             <input
                 type="text"
                 placeholder="Filtra por autor..."
-                className="w-full border h-12 shadow mb-4 p-2 rounded"
+                className="w-full border h-12 shadow mb-4 p-2 rounded max-w-6xl m-auto"
                 onChange={e => setSearchTerm(e.target.value)}
             />
 

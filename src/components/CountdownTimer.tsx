@@ -31,7 +31,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
   }, [calculateTimeLeft, targetDate]);
 
   return (
-    <div className="flex justify-center items-center bg-gray-800">
+    <div className="flex justify-center items-center bg-gray-700">
       <div className="grid grid-flow-col gap-5 text-center auto-cols-max mt-4 mb-4">
         <div className="flex flex-col p-2 bg-neutral rounded-box text-white">
           <span className="countdown font-mono text-5xl">{timeLeft.days}</span>

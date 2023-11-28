@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 interface Group {
+  top: boolean;
   tipo: string;
   nombre: string;
   autor: string;
@@ -72,12 +73,14 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
                     currentTime.getTime() <
                     currentRowTime.getTime() + timeIncrement * 60000;
 
-                  const highlightRowClass = group.autor ? "bg-amber-50" : "";
+                  const highlightRowClass = group.autor ? (group.top ? `bg-rose-700 text-rose-50` : `bg-amber-50`) : '';
                   const rowClass = "flex flex-auto" + " " + highlightRowClass;
                   const onAirClass = `${isLive
                     ? " bg-pink-50 font-bold text-pink-700  text-white blinking"
                     : ""
                     }`;
+
+
 
                   return (
                     <article key={index} className={rowClass}>
@@ -88,7 +91,9 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
                         </div>
                       </div>
                       <div className="px-6 py-4">
-                        <strong id={group.id} className="text-xl capitalize  text-ellipsis overflow-hidden">{group.autor ? `🚀${group.autor}` : ``}</strong>
+                        <strong id={group.id} className="text-xl capitalize  text-ellipsis overflow-hidden">
+                          {group.autor ? (group.top ? `🔥${group.autor}🔥` : `👌 ${group.autor}`) : ''}
+                        </strong>
                         <p className="text-ellipsis overflow-hidden">{group.nombre}</p>
                       </div>
                     </article>
