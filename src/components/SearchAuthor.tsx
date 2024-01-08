@@ -32,28 +32,31 @@ const SearchAuthor: React.FC<SearchAuthorProps> = ({ SearchAuthorData }) => {
             <input
                 type="text"
                 placeholder="Filtra por autor..."
-                className="w-full border h-12 shadow mb-4 p-2 rounded max-w-6xl m-auto"
+                className="w-full border h-12 shadow mb-4 p-2 rounded max-w-4xl m-auto"
                 onChange={e => setSearchTerm(e.target.value)}
             />
 
-            <div className="max-w-6xl flex flex-wrap gap-2 m-auto" role="list">
-                {Object.entries(filteredGroups).map(([fecha, grupos], fechaIndex) =>
-                    grupos.map((grupo, grupoIndex) => (
-                        grupo.autor
-                            ? <a
-                                key={`${fechaIndex}-${grupoIndex}`} // Mejora para la clave única
-                                href={`#${grupo.id}`}
-                                title={`Canta su ${grupo.tipo} el ${fecha}`}
-                                className="bg-blue-200 hover:bg-blue-300 py-1 px-2 rounded-lg text-sm"
-                            >
-                                {grupo.autor}
-                            </a>
-                            : null
-                    ))
-                )}
-            </div>
+            {searchTerm && ( // Solo renderiza cuando hay un término de búsqueda
+                <div className="max-w-6xl flex flex-wrap gap-2 m-auto" role="list">
+                    {Object.entries(filteredGroups).map(([fecha, grupos], fechaIndex) =>
+                        grupos.map((grupo, grupoIndex) => (
+                            grupo.autor
+                                ? <a
+                                    key={`${fechaIndex}-${grupoIndex}`} // Mejora para la clave única
+                                    href={`#${grupo.id}`}
+                                    title={`Canta su ${grupo.tipo} el ${fecha}`}
+                                    className="bg-blue-200 hover:bg-blue-300 py-1 px-2 rounded-lg text-sm"
+                                >
+                                    {grupo.autor}
+                                </a>
+                                : null
+                        ))
+                    )}
+                </div>
+            )}
         </aside>
     );
 };
 
 export default SearchAuthor;
+

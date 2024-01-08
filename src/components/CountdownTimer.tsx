@@ -28,7 +28,15 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({ targetDate }) => {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, [calculateTimeLeft, targetDate]);
+  }, [targetDate]);
+
+  // Verificar si el tiempo restante es cero
+  const isTimeOver = timeLeft.days === 0 && timeLeft.hours === 0 && timeLeft.minutes === 0 && timeLeft.seconds === 0;
+
+  // No renderizar el componente si el tiempo ha terminado
+  if (isTimeOver) {
+    return null;
+  }
 
   return (
     <div className="flex justify-center items-center bg-gray-700">

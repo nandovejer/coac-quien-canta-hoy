@@ -1,5 +1,11 @@
 import React from "react";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
+// import { formatDateString } from '../utils/handleDate';
+import {
+  DATE_PRELIMINARES, classNameBoxActive,
+  classNameGradient
+} from "../data/ConstantsCoac2024";
+// import { formatDateDDmmYYYY } from "../utils/handleDate";
 
 interface Group {
   top?: boolean;
@@ -14,37 +20,41 @@ interface Data {
 }
 
 interface DynamicTableProps {
+  currentSession: string,
   data: Data;
 }
 
 
+const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => {
 
+  const currentFaseDate = DATE_PRELIMINARES; // TODO
 
-const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
-  const [currentTime, setCurrentTime] = useState(new Date());
+  const getSessionClass = (sessionDate: string | number | Date) => {
+    const currentDate = new Date(currentSession);
+    const compareDate = new Date(sessionDate);
 
-  useEffect(() => {
-    // Actualizar la hora actual cada segundo
-    const intervalId = setInterval(() => {
-      setCurrentTime(new Date());
-    }, 1000);
+    if (currentDate.getTime() === compareDate.getTime()) {
+      return classNameBoxActive;
+    }
+    if (currentDate.getTime() > compareDate.getTime()) {
+      return `opacity-50 hover:opacity-100 grayscale`;
+    }
 
-    return () => {
-      // Limpiar el intervalo cuando el componente se desmonta
-      clearInterval(intervalId);
-    };
-  }, []);
+    return ``;
+
+  };
+
 
   return (
-    <div className="p-4 my-2 max-w-4xl mx-auto">
+    <div className=" max-w-4xl mx-auto">
       {Object.entries(data).map(([date, groups]) => (
-        <div key={date} className="mb-16 my-4">
-          <h2 className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 uppercase">
-            Sesión - {date.split("-").reverse().join("/")}
+        <div key={date} className={`px-4 py-12 coac-session mt-8 ${getSessionClass(date)}`} id={date}>
+          <h2 className={`text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent  uppercase  ${classNameGradient}}`}>
+            Sesión - {date}
           </h2>
           <div className="overflow-x-auto scrollbar scrollbar-thumb-gray-500 scrollbar-track-gray-100 scrollbar-thin scrollbar-thumb-rounded">
-            <section className="min-w-full bg-white divide-y divide-gray-200">
-              <header className="flex flex-auto bg-gradient-to-r from-blue-500 to-teal-400">
+            <section className="min-w-full  divide-y divide-gray-200">
+              <header className={`flex flex-auto ${classNameGradient}}`}>
 
                 <div className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
                   Hora / Tipo
@@ -54,10 +64,10 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
                 </div>
 
               </header>
-              <main className="bg-white divide-y divide-gray-200">
+              <main className=" divide-y divide-gray-200">
                 {groups.map((group, index) => {
                   // Calcular el horario en función del índice actual y el horario de inicio (20:00)
-                  const startTime = new Date(`2023-11-26T20:00:00`);
+                  const startTime = new Date(currentFaseDate);
                   const timeIncrement = 30;
                   const currentRowTime = new Date(
                     startTime.getTime() + index * timeIncrement * 60000
@@ -68,18 +78,10 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
                   });
 
                   // Comprobar si la hora actual coincide con la hora de la fila
-                  const isLive =
-                    currentTime.getTime() >= currentRowTime.getTime() &&
-                    currentTime.getTime() <
-                    currentRowTime.getTime() + timeIncrement * 60000;
-
-                  const highlightRowClass = group.autor ? (group.top ? `bg-rose-700 text-rose-50` : `bg-amber-50`) : '';
+                  const isLive = false;
+                  const highlightRowClass = group.autor ? (group.top ? `bg-rose-700 text-rose-50` : ``) : '';
                   const rowClass = "flex flex-auto" + " " + highlightRowClass;
-                  const onAirClass = `${isLive
-                    ? " bg-pink-50 font-bold text-pink-700  text-white blinking"
-                    : ""
-                    }`;
-
+                  const onAirClass = `${isLive ? " bg-pink-50 font-bold text-pink-700  text-white blinking" : ""}`;
 
 
                   return (
