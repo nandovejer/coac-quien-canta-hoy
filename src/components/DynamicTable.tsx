@@ -2,10 +2,8 @@ import React from "react";
 // import { useState, useEffect } from "react";
 // import { formatDateString } from '../utils/handleDate';
 import {
-  DATE_PRELIMINARES, DATE_CUARTOS, DATE_SEMIFINALES, DATE_FINAL, classNameBoxActive,
-  classNameGradient,
-  classNameGradientHight,
-  classNameGradientDisable
+  DATE_PRELIMINARES, classNameBoxActive,
+  classNameGradient
 } from "../data/ConstantsCoac2024";
 // import { formatDateDDmmYYYY } from "../utils/handleDate";
 
