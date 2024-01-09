@@ -11,12 +11,6 @@ const MenuHeader = ({ menuData: { liveUrl, lastDateSession } }: MenuHeaderProps)
 
     const classNameLinksMenu = "flex flex-col justify-center items-center font-medium px-2 py-2 md:px-5 md:py-2  text-gray-800 text-center w-1/3 hover:text-white hover:bg-rose-700";
 
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    };
 
     return (
         <>
