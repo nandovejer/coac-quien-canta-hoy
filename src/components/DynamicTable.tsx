@@ -49,8 +49,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
     <div className=" max-w-4xl mx-auto">
       {Object.entries(data).map(([date, groups]) => (
         <>
-        <span className="block pt-8" aria-hidden="true" id={date}></span>
-          <div key={date} className={`px-4 py-4 coac-session mt-8 ${getSessionClass(date)}`} >
+          <div key={date} className={`px-4 py-4 coac-session mt-8 ${getSessionClass(date)}`} id={date} >
             <h2 className={`text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent  uppercase  ${classNameGradient}}`}>
               Sesión - {date}
             </h2>

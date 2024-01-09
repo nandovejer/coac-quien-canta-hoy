@@ -18,7 +18,7 @@ interface AuthorCloudProps {
 
 const AuthorCloud: React.FC<AuthorCloudProps> = ({ AuthorCloudData }) => {
     return (
-        <aside className="bg-white p-6 rounded-lg shadow-lg w-full">l4
+        <aside className="bg-white p-6 rounded-lg shadow-lg w-full">
             <h2 className="text-lg font-semibold mb-4 text-center">Autores</h2>
             <div className="max-w-6xl flex flex-wrap gap-2 m-auto" role="list">
                 {Object.entries(AuthorCloudData).map(([fecha, grupos], fechaIndex) =>
