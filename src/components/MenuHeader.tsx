@@ -6,15 +6,14 @@ interface MenuHeaderProps {
 }
 
 
-
 const MenuHeader = ({ menuData: { liveUrl, lastDateSession } }: MenuHeaderProps) => {
 
-    const classNameLinksMenu = "flex flex-col justify-center items-center font-medium px-2 py-2 md:px-5 md:py-2  text-gray-800 text-center w-1/3 hover:text-white hover:bg-rose-700";
+    const classNameLinksMenu = "flex flex-col justify-center items-center font-medium px-2 py-2 md:px-5 md:py-2  text-center w-1/3 max-w-xs hover:bg-gradient-to-r from-blue-500  to-blue-400";
 
 
     return (
         <>
-            <div className="flex justify-center items-center shadow-lg w-full z-10 bg-slate-50 sticky top-0 max-w-6xl mx-auto">
+            <div className="flex justify-center items-center shadow-lg w-full z-10  text-white bg-gray-800 fixed bottom-0">
                 <a target='_blank' href={liveUrl} className={classNameLinksMenu} rel="noopener noreferrer">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125Z" />
