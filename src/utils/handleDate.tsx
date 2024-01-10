@@ -1,4 +1,4 @@
-function getPreviousDate(minTime: string, maxTime: string) {
+function getCurrentSessionDate(minTime: string, maxTime: string) {
     // Convert the times to date objects
     const now = new Date();
     const minDate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), ...minTime.split(':'));
@@ -24,6 +24,17 @@ function formatDateString(date: string) {
     return date.replace(/\\/g, '-');
 }
 
+// formatDateDDmmYYYY(new Date());
+function formatDateDDmmYYYY(_date) {
+    const dd = String(_date.getDate()).padStart(2, '0');
+    const mm = String(_date.getMonth() + 1).padStart(2, '0');
+    const yyyy = _date.getFullYear();
+
+    return `${dd}/${mm}/${yyyy}`;
+}
 
 
-export { getPreviousDate, formatDateString };
+
+
+
+export { getCurrentSessionDate, formatDateString, formatDateDDmmYYYY };

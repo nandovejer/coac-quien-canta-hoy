@@ -2,6 +2,7 @@ import React from "react";
 // import { useState, useEffect } from "react";
 // import { formatDateString } from '../utils/handleDate';
 import { DATE_PRELIMINARES, DATE_CUARTOS, DATE_SEMIFINALES, DATE_FINAL } from "../data/ConstantsCoac2024";
+import { formatDateDDmmYYYY } from "../utils/handleDate";
 
 interface Group {
   top?: boolean;
@@ -16,13 +17,14 @@ interface Data {
 }
 
 interface DynamicTableProps {
+  currentSession: string,
   data: Data;
 }
 
 
 
 
-const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
+const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => {
 
 
   const currentFaseDate = DATE_PRELIMINARES;
@@ -49,10 +51,11 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ data }) => {
 //   const currentFaseDate = getOngoingEvent();
 
 
+
   return (
     <div className=" max-w-4xl mx-auto">
       {Object.entries(data).map(([date, groups]) => (
-        <div key={date} className="px-4 py-12 coac-session" id={date}>
+        <div key={date} className={`px-4 py-12 coac-session mt-8 ${currentSession === date ? 'bg-stone-50 shadow-xl rounded-lg' : ''}`} id={date}>
           <h2 className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 uppercase">
             Sesión - {date}
           </h2>
