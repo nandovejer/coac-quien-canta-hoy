@@ -1,11 +1,9 @@
 import React from "react";
-// import { useState, useEffect } from "react";
-// import { formatDateString } from '../utils/handleDate';
 import {
   DATE_PRELIMINARES, classNameBoxActive,
   classNameGradient
 } from "../data/ConstantsCoac2024";
-// import { formatDateDDmmYYYY } from "../utils/handleDate";
+
 
 interface Group {
   top?: boolean;
@@ -86,7 +84,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
 
 
                     return (
-                      <article key={index} className={rowClass}>
+                      <article id={group.id} key={index} className={rowClass}>
                         <div className="px-4 py-2 ">
                           <div className="flex flex-col justify-center h-full w-20">
                             <span className="">{group.tipo}</span>
@@ -94,7 +92,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
                           </div>
                         </div>
                         <div className="px-4 py-4">
-                          <strong id={group.id} className="sm:text-xl capitalize  text-ellipsis overflow-hidden">
+                          <strong  className="sm:text-xl capitalize  text-ellipsis overflow-hidden">
                             {group.autor ? (group.top ? `🔥${group.autor}🔥` : `👌 ${group.autor}`) : ''}
                           </strong>
                           <p className="text-ellipsis overflow-hidden">{group.nombre}</p>

@@ -1,3 +1,5 @@
+const consoleExtraMsg = () => console.log(`\n░░░▒█▀▀█░▒█░▒█░▀█▀░▒█▀▀▀░▒█▄░▒█░░░▒█▀▀▄░█▀▀▄░▒█▄░▒█░▀▀█▀▀░█▀▀▄░░░▒█░▒█░▒█▀▀▀█░▒█░░▒█░▀█\n░░░▒█░▒█░▒█░▒█░▒█░░▒█▀▀▀░▒█▒█▒█░░░▒█░░░▒█▄▄█░▒█▒█▒█░░▒█░░▒█▄▄█░░░▒█▀▀█░▒█░░▒█░▒▀▄▄▄▀░█▀\n░░░░▀▀█▄░░▀▄▄▀░▄█▄░▒█▄▄▄░▒█░░▀█░░░▒█▄▄▀▒█░▒█░▒█░░▀█░░▒█░░▒█░▒█░░░▒█░▒█░▒█▄▄▄█░░░▒█░░░▄░\n`);
+
 const DATE_PRELIMINARES = "2024-01-09T20:00:00";
 const DATE_CUARTOS = "2024-01-26T20:00:00";
 const DATE_SEMIFINALES = "2024-02-04T20:00:00";
@@ -13,6 +15,7 @@ const classNameGradientHight =
 const classNameGradientDisable = "bg-gradient-to-r from-gray-500 to-grey-400 ";
 
 export {
+  consoleExtraMsg,
   DATE_PRELIMINARES,
   DATE_CUARTOS,
   DATE_SEMIFINALES,
