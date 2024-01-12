@@ -15,7 +15,7 @@ import {
 const MenuHeader = ({ menuData: { liveUrl, lastDateSession } }: MenuHeaderProps) => {
 
     const baseClasses = "flex justify-center font-medium px-2 py-2 md:px-5 md:py-2 text-black text-gray-800 border-gray-200 text-ellipsis overflow-hidden text-center w-1/3";
-    const classNameLinksMenu = `${baseClasses} hover:text-white hover:` + classNameGradientHight;
+    const classNameLinksMenu = `${baseClasses} hover:text-white hover:` + classNameGradient;
 
     const scrollToTop = () => {
         window.scrollTo({
@@ -26,7 +26,7 @@ const MenuHeader = ({ menuData: { liveUrl, lastDateSession } }: MenuHeaderProps)
 
     return (
         <>
-            <div className="flex justify-center items-center shadow-lg w-full bg-white sticky top-0 max-w-6xl mx-auto">
+            <div className="flex justify-center items-center shadow-lg w-full z-10 bg-white sticky top-0 max-w-6xl mx-auto">
                 <a target='_blank' href={liveUrl} className={classNameLinksMenu} rel="noopener noreferrer">
                     Ver en Directo
                 </a>

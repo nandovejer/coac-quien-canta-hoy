@@ -29,42 +29,34 @@ interface DynamicTableProps {
 
 const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => {
 
-  const currentFaseDate = DATE_PRELIMINARES;
+  const currentFaseDate = DATE_PRELIMINARES; // TODO
 
-  //   function getOngoingEvent() {
-  //     const now = new Date();
-  //     const events = [
-  //         { start: new Date(DATE_PRELIMINARES), end: new Date(DATE_PRELIMINARES).setDate(new Date(DATE_PRELIMINARES).getDate() + 1) },
-  //         { start: new Date(DATE_CUARTOS), end: new Date(DATE_CUARTOS).setDate(new Date(DATE_CUARTOS).getDate() + 1) },
-  //         { start: new Date(DATE_SEMIFINALES), end: new Date(DATE_SEMIFINALES).setDate(new Date(DATE_SEMIFINALES).getDate() + 1) },
-  //         { start: new Date(DATE_FINAL), end: new Date(DATE_FINAL).setDate(new Date(DATE_FINAL).getDate() + 1) }
-  //     ];
+  const getSessionClass = (sessionDate: string | number | Date) => {
+    const currentDate = new Date(currentSession);
+    const compareDate = new Date(sessionDate);
 
-  //     for (let event of events) {
-  //         if (now >= event.start && now < event.end) {
-  //           console.log(event.start);
-  //             return event.start;
-  //         }
-  //     }
+    if (currentDate.getTime() === compareDate.getTime()) {
+      return classNameBoxActive;
+    }
+    if (currentDate.getTime() > compareDate.getTime()) {
+      return `opacity-50 hover:opacity-100 grayscale`;
+    }
 
-  //     return null; // No hay eventos en curso si no se cumple ninguna condición.
-  // }
+    return ``;
 
-  //   const currentFaseDate = getOngoingEvent();
-
-
+  };
 
 
   return (
     <div className=" max-w-4xl mx-auto">
       {Object.entries(data).map(([date, groups]) => (
-        <div key={date} className={`px-4 py-12 coac-session mt-8 ${currentSession === date ? classNameBoxActive : ''}`} id={date}>
-          <h2 className={`text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent  uppercase  ${currentSession === date ? classNameGradientHight : classNameGradient}}`}>
+        <div key={date} className={`px-4 py-12 coac-session mt-8 ${getSessionClass(date)}`} id={date}>
+          <h2 className={`text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent  uppercase  ${classNameGradient}}`}>
             Sesión - {date}
           </h2>
           <div className="overflow-x-auto scrollbar scrollbar-thumb-gray-500 scrollbar-track-gray-100 scrollbar-thin scrollbar-thumb-rounded">
             <section className="min-w-full  divide-y divide-gray-200">
-              <header className={`flex flex-auto ${currentSession === date ? classNameGradientHight : classNameGradient}}`}>
+              <header className={`flex flex-auto ${classNameGradient}}`}>
 
                 <div className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
                   Hora / Tipo
@@ -89,19 +81,9 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
 
                   // Comprobar si la hora actual coincide con la hora de la fila
                   const isLive = false;
-                  // const isLive =
-                  //   currentTime.getTime() >= currentRowTime.getTime() &&
-                  //   currentTime.getTime() <
-                  //   currentRowTime.getTime() + timeIncrement * 60000;
-
-
                   const highlightRowClass = group.autor ? (group.top ? `bg-rose-700 text-rose-50` : ``) : '';
                   const rowClass = "flex flex-auto" + " " + highlightRowClass;
-                  const onAirClass = `${isLive
-                    ? " bg-pink-50 font-bold text-pink-700  text-white blinking"
-                    : ""
-                    }`;
-
+                  const onAirClass = `${isLive ? " bg-pink-50 font-bold text-pink-700  text-white blinking" : ""}`;
 
 
                   return (

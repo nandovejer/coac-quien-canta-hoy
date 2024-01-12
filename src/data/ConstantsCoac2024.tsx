@@ -6,7 +6,7 @@ const LIVE_URL_COAC = "https://www.youtube.com/@ONDACADIZCARNAVAL/streams";
 const MIN_HOUR_SESSION = "20:00";
 const MAX_HOUR_SESSION = "04:00";
 
-const classNameBoxActive = "bg-stone-100 shadow-2xl rounded-lg ";
+const classNameBoxActive = "shadow-2xl rounded-lg ";
 const classNameGradient = "bg-gradient-to-r from-blue-500 to-teal-400 ";
 const classNameGradientHight =
   "bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ";
