@@ -1,12 +1,17 @@
 import React from "react";
 // import { useState, useEffect } from "react";
 // import { formatDateString } from '../utils/handleDate';
-import { DATE_PRELIMINARES, DATE_CUARTOS, DATE_SEMIFINALES, DATE_FINAL } from "../data/ConstantsCoac2024";
-import { formatDateDDmmYYYY } from "../utils/handleDate";
+import {
+  DATE_PRELIMINARES, DATE_CUARTOS, DATE_SEMIFINALES, DATE_FINAL, classNameBoxActive,
+  classNameGradient,
+  classNameGradientHight,
+  classNameGradientDisable
+} from "../data/ConstantsCoac2024";
+// import { formatDateDDmmYYYY } from "../utils/handleDate";
 
 interface Group {
   top?: boolean;
-  tipo: string; 
+  tipo: string;
   nombre: string;
   autor: string;
   id?: string;
@@ -22,46 +27,44 @@ interface DynamicTableProps {
 }
 
 
-
-
 const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => {
-
 
   const currentFaseDate = DATE_PRELIMINARES;
 
-//   function getOngoingEvent() {
-//     const now = new Date();
-//     const events = [
-//         { start: new Date(DATE_PRELIMINARES), end: new Date(DATE_PRELIMINARES).setDate(new Date(DATE_PRELIMINARES).getDate() + 1) },
-//         { start: new Date(DATE_CUARTOS), end: new Date(DATE_CUARTOS).setDate(new Date(DATE_CUARTOS).getDate() + 1) },
-//         { start: new Date(DATE_SEMIFINALES), end: new Date(DATE_SEMIFINALES).setDate(new Date(DATE_SEMIFINALES).getDate() + 1) },
-//         { start: new Date(DATE_FINAL), end: new Date(DATE_FINAL).setDate(new Date(DATE_FINAL).getDate() + 1) }
-//     ];
+  //   function getOngoingEvent() {
+  //     const now = new Date();
+  //     const events = [
+  //         { start: new Date(DATE_PRELIMINARES), end: new Date(DATE_PRELIMINARES).setDate(new Date(DATE_PRELIMINARES).getDate() + 1) },
+  //         { start: new Date(DATE_CUARTOS), end: new Date(DATE_CUARTOS).setDate(new Date(DATE_CUARTOS).getDate() + 1) },
+  //         { start: new Date(DATE_SEMIFINALES), end: new Date(DATE_SEMIFINALES).setDate(new Date(DATE_SEMIFINALES).getDate() + 1) },
+  //         { start: new Date(DATE_FINAL), end: new Date(DATE_FINAL).setDate(new Date(DATE_FINAL).getDate() + 1) }
+  //     ];
 
-//     for (let event of events) {
-//         if (now >= event.start && now < event.end) {
-//           console.log(event.start);
-//             return event.start;
-//         }
-//     }
+  //     for (let event of events) {
+  //         if (now >= event.start && now < event.end) {
+  //           console.log(event.start);
+  //             return event.start;
+  //         }
+  //     }
 
-//     return null; // No hay eventos en curso si no se cumple ninguna condición.
-// }
+  //     return null; // No hay eventos en curso si no se cumple ninguna condición.
+  // }
 
-//   const currentFaseDate = getOngoingEvent();
+  //   const currentFaseDate = getOngoingEvent();
+
 
 
 
   return (
     <div className=" max-w-4xl mx-auto">
       {Object.entries(data).map(([date, groups]) => (
-        <div key={date} className={`px-4 py-12 coac-session mt-8 ${currentSession === date ? 'bg-stone-50 shadow-xl rounded-lg' : ''}`} id={date}>
-          <h2 className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 uppercase">
+        <div key={date} className={`px-4 py-12 coac-session mt-8 ${currentSession === date ? classNameBoxActive : ''}`} id={date}>
+          <h2 className={`text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent  uppercase  ${currentSession === date ? classNameGradientHight : classNameGradient}}`}>
             Sesión - {date}
           </h2>
           <div className="overflow-x-auto scrollbar scrollbar-thumb-gray-500 scrollbar-track-gray-100 scrollbar-thin scrollbar-thumb-rounded">
             <section className="min-w-full  divide-y divide-gray-200">
-              <header className="flex flex-auto bg-gradient-to-r from-blue-500 to-teal-400">
+              <header className={`flex flex-auto ${currentSession === date ? classNameGradientHight : classNameGradient}}`}>
 
                 <div className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
                   Hora / Tipo
