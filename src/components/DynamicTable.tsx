@@ -40,22 +40,18 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
     return ``;
   };
 
-  const sessionStatus = (sessionDate: string) => {
+  type SessionStatus = 'past' | 'present' | 'future';
+  const sessionStatus = (sessionDate: string): SessionStatus => {
     const currentDate = parseDate(currentSession);
     const compareDate = parseDate(sessionDate);
-    const status = {
-      past: "past",
-      present: "present",
-      future: "future"
-    }
 
     if (currentDate.getTime() === compareDate.getTime()) {
-      return status.present;
+      return 'present';
     }
     if (currentDate.getTime() > compareDate.getTime()) {
-      return status.past;
+      return 'past';
     }
-    return status.future;
+    return 'future';
   };
 
   const css = {
@@ -121,7 +117,13 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
     );
   }
   // Clasificar sesiones en pasadas, presentes y futuras
-  const sessions = {
+  interface Sessions {
+    past: JSX.Element[];
+    present: JSX.Element[];
+    future: JSX.Element[];
+  }
+
+  const sessions: Sessions = {
     past: [],
     present: [],
     future: []
@@ -129,7 +131,9 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
 
   Object.entries(data).forEach(([date, groups]) => {
     const status = sessionStatus(date);
-    sessions[status].push(SessionComponent(date, groups));
+    if (status in sessions) {
+      sessions[status].push(SessionComponent(date, groups));
+    }
   });
 
   return (
@@ -143,13 +147,13 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
       )}
       {sessions.future.length > 0 && (
         <div id="session-future">
-             <h2 className={css.h2}>Próximas sesiones</h2>
+          <h2 className={css.h2}>Próximas sesiones</h2>
           {sessions.future}
         </div>
       )}
       {sessions.past.length > 0 && (
         <div id="session-past">
-            <h2 className={css.h2 + ` grayscale `}>Sesiones Pasadas</h2>
+          <h2 className={css.h2 + ` grayscale `}>Sesiones Pasadas</h2>
           {sessions.past}
         </div>
       )}
