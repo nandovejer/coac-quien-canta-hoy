@@ -17,8 +17,7 @@ function App() {
 
   const currentJsonData = formatAppData(jsonData);
   const lastDateSession = getCurrentSessionDate(new Date().toLocaleDateString(), MAX_HOUR_SESSION);
-  console.log(lastDateSession)
-  const preventLastDateSession = lastDateSession === "08/01/2024" ? "09/01/2024" : lastDateSession; // TODO fix this hardcode
+
   document.body.classList.add('bg-slate-50');
   consoleExtraMsg();
   paradise();
@@ -27,7 +26,7 @@ function App() {
     <>
       <MenuHeader menuData={{
         liveUrl: LIVE_URL_COAC,
-        lastDateSession: preventLastDateSession
+        lastDateSession: lastDateSession
       }} />
       <header id="siteHeader" className="text-center bg-gray-800">
         <hgroup className='flex justify-center items-center max-w-6xl mx-auto p-6  '>
@@ -38,7 +37,7 @@ function App() {
       <main id="siteMain">
         <CountdownTimer targetDate={DATE_PRELIMINARES} />
         <SearchAuthor SearchAuthorData={currentJsonData} />
-        <DynamicTable currentSession={preventLastDateSession} data={currentJsonData} />
+        <DynamicTable currentSession={lastDateSession} data={currentJsonData} />
       </main>
       <Footer />
     </>

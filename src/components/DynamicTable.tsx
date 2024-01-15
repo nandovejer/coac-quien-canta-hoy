@@ -3,7 +3,7 @@ import {
   DATE_PRELIMINARES, classNameBoxActive,
   classNameGradient
 } from "../data/ConstantsCoac2024";
-
+import { parseDate } from "../utils/handleDate";
 
 interface Group {
   top?: boolean;
@@ -28,8 +28,8 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
   const currentFaseDate = DATE_PRELIMINARES; // TODO
 
   const getSessionClass = (sessionDate: string | number | Date) => {
-    const currentDate = new Date(currentSession);
-    const compareDate = new Date(sessionDate);
+    const currentDate = parseDate(currentSession);
+    const compareDate = parseDate(sessionDate);
 
     if (currentDate.getTime() === compareDate.getTime()) {
       return classNameBoxActive;

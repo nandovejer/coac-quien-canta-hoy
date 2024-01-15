@@ -24,6 +24,15 @@ function formatDateString(date: string) {
     return date.replace(/\\/g, '-');
 }
 
+
+    // Parse Date ===> dd//mm/yyyy
+    const parseDate = (dateString) => {
+        const [day, month, year] = dateString.split('/').map(Number);
+        return new Date(year, month - 1, day);
+      };
+
+      
+      
 // formatDateDDmmYYYY(new Date());
 function formatDateDDmmYYYY(_date: { getDate: () => unknown; getMonth: () => number; getFullYear: () => unknown; }) {
     const dd = String(_date.getDate()).padStart(2, '0');
@@ -37,4 +46,4 @@ function formatDateDDmmYYYY(_date: { getDate: () => unknown; getMonth: () => num
 
 
 
-export { getCurrentSessionDate, formatDateString, formatDateDDmmYYYY };
+export { getCurrentSessionDate, formatDateString, formatDateDDmmYYYY, parseDate };
