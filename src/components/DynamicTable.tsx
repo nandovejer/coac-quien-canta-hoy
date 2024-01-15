@@ -27,7 +27,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
 
   const currentFaseDate = DATE_PRELIMINARES; // TODO
 
-  const getSessionClass = (sessionDate: string | number | Date) => {
+  const getSessionClass = (sessionDate: string) => {
     const currentDate = parseDate(currentSession);
     const compareDate = parseDate(sessionDate);
 

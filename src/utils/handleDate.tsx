@@ -1,4 +1,4 @@
-function getCurrentSessionDate(minTime:any, maxTime: any) {
+function getCurrentSessionDate(minTime: any, maxTime: any) {
     // Convert the times to date objects
     const now = new Date();
     const minDate = new Date(now.getFullYear(), now.getMonth(), now.getDate(), ...minTime.split(':'));
@@ -25,14 +25,14 @@ function formatDateString(date: string) {
 }
 
 
-    // Parse Date ===> dd//mm/yyyy
-    const parseDate = (dateString) => {
-        const [day, month, year] = dateString.split('/').map(Number);
-        return new Date(year, month - 1, day);
-      };
+// Parse Date ===> dd//mm/yyyy
+function parseDate(dateString: string) {
+    const [day, month, year] = dateString.split('/').map(Number);
+    return new Date(year, month - 1, day);
+}
 
-      
-      
+
+
 // formatDateDDmmYYYY(new Date());
 function formatDateDDmmYYYY(_date: { getDate: () => unknown; getMonth: () => number; getFullYear: () => unknown; }) {
     const dd = String(_date.getDate()).padStart(2, '0');
