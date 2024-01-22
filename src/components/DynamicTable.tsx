@@ -102,10 +102,10 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
                       </div>
                     </div>
                     <div className="px-4 py-4">
-                      <strong className="sm:text-xl capitalize text-ellipsis overflow-hidden">
-                        {group.autor ? (group.top ? `🔥${group.autor}🔥` : `👌 ${group.autor}`) : ''}
-                      </strong>
-                      <p className="text-ellipsis overflow-hidden">{group.nombre}</p>
+                      <strong className="text-ellipsis overflow-hidden">{group.nombre}</strong>
+                      <p className="sm:text-xl capitalize text-ellipsis overflow-hidden">
+                        {group.autor ? (group.top ? `🔥${group.autor}🔥` : `${group.autor}`) : ''}
+                      </p>
                     </div>
                   </article>
                 );
