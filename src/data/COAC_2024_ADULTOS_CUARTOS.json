@@ -36,49 +36,6 @@
       "nombre": "EL GRINCH DE CAI",
       "autor": "sherif"
     },
-
-    {
-      "top": false,
-      "tipo": "CORO",
-      "nombre": "LA DAMA DE CÁDIZ",
-      "autor": "Paco Martínez Mora y Pepe Marchena"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "LOS DE LA ARRITMIA AL 3X4",
-      "autor": "Pepe Fierro"
-    },
-    {
-      "top": true,
-      "tipo": "CUARTETO",
-      "nombre": "EN MI CASETA CABE TODO EL MUNDO",
-      "autor": "Iván Romero"
-    },
-    {
-      "top": true,
-      "tipo": "COMPARSA",
-      "nombre": "LA OVEJA NEGRA",
-      "autor": "Martínez Ares"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LOS LENGÜETAS",
-      "autor": "Comparsa de Ceuta"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "CIEGO DE TRONOS",
-      "autor": "El Lacio"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LA FIESTA",
-      "autor": "Joseja Puerto, Luis Rivero, Jesús Selma y Fernando Manuel Rodríguez"
-    },
     {
       "top": false,
       "tipo": "COMPARSA",
@@ -167,7 +124,6 @@
       "nombre": "PUEBLEJITO LA FRONTERA",
       "autor": "José Juan Pastrana Fernández, Francisco Joaquín Fernández Cressi y Miguel Ángel Gómez"
     },
-
     {
       "top": false,
       "tipo": "CHIRIGOTA",
@@ -270,7 +226,6 @@
       "nombre": "ASESINATO EN EL CÁDIZ EXPRESS",
       "autor": "Nandi Miguele"
     },
-
     {
       "top": false,
       "tipo": "COMPARSA",
