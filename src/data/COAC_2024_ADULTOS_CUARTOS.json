@@ -1,43 +1,5 @@
 {
-  "09/01/2024": [
-    {
-      "top": false,
-      "tipo": "CORO",
-      "nombre": "LA RENDICIÓN DE LOS BRIBONES",
-      "autor": "Coro de Huelva"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LOS ATRAPAOS",
-      "autor": "comparsa de Huelva - Alberto e Iván Giraldo"
-    },
-    {
-      "top": true,
-      "tipo": "CHIRIGOTA",
-      "nombre": "QUE NI LAS HAMBRE LAS VAMO A SENTÍ",
-      "autor": "selu"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "EL PARAÍSO DEL MOMO",
-      "autor": "Juan Antonio Pozo Acuña"
-    },
-    {
-      "top": true,
-      "tipo": "CHIRIGOTA",
-      "nombre": "EL GRINCH DE CAI",
-      "autor": "sherif"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "VUELVE YA EL 3X4",
-      "autor": "Faly Pastrana y Marcos Pastrana"
-    }
-  ],
-  "10/01/2024": [
+  "26/01/2024": [
     {
       "top": true,
       "tipo": "CORO",
@@ -45,142 +7,10 @@
       "autor": "Chapa"
     },
     {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LOS BENDITOS",
-      "autor": "Toté"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "LOS DE LA ARRITMIA AL 3X4",
-      "autor": "Pepe Fierro"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LAS MUJERES DE LA VIDA",
-      "autor": "comparsa de Sevilla - Ramón Ruiz y Damián Gómez"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "CIEGO DE TRONOS",
-      "autor": "El Lacio"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LOS FABRICANTES",
-      "autor": "Patricia Andrés Olozábal, el Chato y Tomy Alemania"
-    }
-  ],
-  "11/01/2024": [
-    {
-      "top": false,
-      "tipo": "CORO",
-      "nombre": "¡QUÉ ORGULLO DE CORO!",
-      "autor": "coro de Mérida"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "LA ALEGRÍA DE CAI (LOS APOCALÍPTICOS)",
-      "autor": "Manolo Cornejo"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "¡CON LO BONITO QUE ERA!",
-      "autor": "comparsa del Principito"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "ANONYMOUS GADITANO",
-      "autor": "Chirigota de San Fernando"
-    },
-    {
-      "top": true,
-      "tipo": "COMPARSA",
-      "nombre": "LA OVEJA NEGRA",
-      "autor": "Martínez Ares"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "TE HE DICHO 1.748.654 VECES QUE NO SOY EXAGERAO (LOS EXAGERAOS)",
-      "autor": "chirigota de los Villegas"
-    }
-  ],
-  "12/01/2024": [
-    {
-      "top": true,
-      "tipo": "CORO",
-      "nombre": "El paraíso",
-      "autor": "Luis Rivero"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "Los atlantes",
-      "autor": "Comparsa de Chipiona"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "Cariño… necesito mi espacio",
-      "autor": "chirigota de camas"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "El golpe",
-      "autor": "Comparsa de Granada - José Antonio Guarnido Ayllón y José María Victoria Rejó"
-    },
-    {
-      "top": false,
-      "tipo": "CUARTETO",
-      "nombre": "¡Qué doló de muñeca!",
-      "autor": "Daniel Rosales Gatica"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "El hum",
-      "autor": "Comparsa de Dos Hermanas"
-    },
-    {
       "top": true,
       "tipo": "CHIRIGOTA",
-      "nombre": "Los del Canal Sur",
-      "autor": "Mario Rodríguez, Marco Romero, Luismi Rossi y Pepe el Caja"
-    }
-  ],
-  "13/01/2024": [
-    {
-      "top": false,
-      "tipo": "CORO",
-      "nombre": "LA DAMA DE CÁDIZ",
-      "autor": "Paco Martínez Mora y Pepe Marchena"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LOS LENGÜETAS",
-      "autor": "Comparsa de Ceuta"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "NO LE DOY MÁS VUELTAS QUE ME CALIENTO",
-      "autor": "chirigota Algeciras -  Tini"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LOS DESPOJAOS",
-      "autor": "David Campano y Daniel Montiel"
+      "nombre": "QUE NI LAS HAMBRE LAS VAMO A SENTÍ",
+      "autor": "selu"
     },
     {
       "top": true,
@@ -191,28 +21,57 @@
     {
       "top": false,
       "tipo": "COMPARSA",
-      "nombre": "LOS TAQUILLEROS",
-      "autor": "comparsa de Vilches (Jaén)"
+      "nombre": "VUELVE YA EL 3X4",
+      "autor": "Faly Pastrana y Marcos Pastrana"
     },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "EL ÚLTIMO GADITANO",
-      "autor": "Comparsa de Barcelona"
-    }
-  ],
-  "14/01/2024": [
     {
       "top": true,
       "tipo": "CORO",
-      "nombre": "LOS LUCIÉRNAGAS",
-      "autor": "Julio Pardo Carillo y Antonio Riva"
+      "nombre": "El paraíso",
+      "autor": "Luis Rivero"
+    },
+    {
+      "top": true,
+      "tipo": "CHIRIGOTA",
+      "nombre": "EL GRINCH DE CAI",
+      "autor": "sherif"
+    },
+
+    {
+      "top": false,
+      "tipo": "CORO",
+      "nombre": "LA DAMA DE CÁDIZ",
+      "autor": "Paco Martínez Mora y Pepe Marchena"
     },
     {
       "top": false,
       "tipo": "CHIRIGOTA",
-      "nombre": "LOS SUPER-EGO",
-      "autor": "Miguel Llull, David Verde y José Arauz"
+      "nombre": "LOS DE LA ARRITMIA AL 3X4",
+      "autor": "Pepe Fierro"
+    },
+    {
+      "top": true,
+      "tipo": "CUARTETO",
+      "nombre": "EN MI CASETA CABE TODO EL MUNDO",
+      "autor": "Iván Romero"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "LA OVEJA NEGRA",
+      "autor": "Martínez Ares"
+    },
+    {
+      "top": false,
+      "tipo": "COMPARSA",
+      "nombre": "LOS LENGÜETAS",
+      "autor": "Comparsa de Ceuta"
+    },
+    {
+      "top": false,
+      "tipo": "CHIRIGOTA",
+      "nombre": "CIEGO DE TRONOS",
+      "autor": "El Lacio"
     },
     {
       "top": false,
@@ -222,9 +81,73 @@
     },
     {
       "top": false,
+      "tipo": "COMPARSA",
+      "nombre": "LOS FABRICANTES",
+      "autor": "Patricia Andrés Olozábal, el Chato y Tomy Alemania"
+    }
+  ],
+  "27/01/2024": [
+    {
+      "top": false,
+      "tipo": "CORO",
+      "nombre": "LA DAMA DE CÁDIZ",
+      "autor": "Paco Martínez Mora y Pepe Marchena"
+    },
+    {
+      "top": false,
       "tipo": "CHIRIGOTA",
-      "nombre": "SÁCAMELA DE LA BOCA",
-      "autor": "Alejandro Pérez y David Corrales"
+      "nombre": "LOS DE LA ARRITMIA AL 3X4",
+      "autor": "Pepe Fierro"
+    },
+    {
+      "top": true,
+      "tipo": "CUARTETO",
+      "nombre": "EN MI CASETA CABE TODO EL MUNDO",
+      "autor": "Iván Romero"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "LA OVEJA NEGRA",
+      "autor": "Martínez Ares"
+    },
+    {
+      "top": false,
+      "tipo": "COMPARSA",
+      "nombre": "LOS LENGÜETAS",
+      "autor": "Comparsa de Ceuta"
+    },
+    {
+      "top": false,
+      "tipo": "CHIRIGOTA",
+      "nombre": "CIEGO DE TRONOS",
+      "autor": "El Lacio"
+    },
+    {
+      "top": false,
+      "tipo": "COMPARSA",
+      "nombre": "LA FIESTA",
+      "autor": "Joseja Puerto, Luis Rivero, Jesús Selma y Fernando Manuel Rodríguez"
+    }
+  ],
+  "28/01/2024": [
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "LOS LUCIÉRNAGAS",
+      "autor": "Julio Pardo Carillo y Antonio Riva"
+    },
+    {
+      "top": false,
+      "tipo": "CHIRIGOTA",
+      "nombre": "TE HE DICHO 1.748.654 VECES QUE NO SOY EXAGERAO (LOS EXAGERAOS)",
+      "autor": "chirigota de los Villegas"
+    },
+    {
+      "top": true,
+      "tipo": "CUARTETO",
+      "nombre": "LOS COCOS DE CADI",
+      "autor": "Javier Aguilera y Ángel Piulestán"
     },
     {
       "top": true,
@@ -233,30 +156,31 @@
       "autor": "Nene Cheza"
     },
     {
-      "top": false,
+      "top": true,
       "tipo": "CHIRIGOTA",
-      "nombre": "¡POR FIN LO DESPEDIMOS!",
-      "autor": "chirigota de los Chaves"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LOS ESTRELLAOS",
-      "autor": "comparsa de granada - Fran Rodríguez"
-    }
-  ],
-  "15/01/2024": [
-    {
-      "top": false,
-      "tipo": "CORO",
-      "nombre": "DESPIERTA",
-      "autor": "Coro de Sevilla"
+      "nombre": "Los del Canal Sur",
+      "autor": "Mario Rodríguez, Marco Romero, Luismi Rossi y Pepe el Caja"
     },
     {
       "top": false,
       "tipo": "COMPARSA",
       "nombre": "PUEBLEJITO LA FRONTERA",
       "autor": "José Juan Pastrana Fernández, Francisco Joaquín Fernández Cressi y Miguel Ángel Gómez"
+    },
+
+    {
+      "top": false,
+      "tipo": "CHIRIGOTA",
+      "nombre": "LOS SUPER-EGO",
+      "autor": "Miguel Llull, David Verde y José Arauz"
+    }
+  ],
+  "29/01/2024": [
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "LA FIESTA DE LOS LOCOS",
+      "autor": "Coro de los estudiantes"
     },
     {
       "top": false,
@@ -279,72 +203,8 @@
     {
       "top": false,
       "tipo": "COMPARSA",
-      "nombre": "LOS RETRATISTAS",
-      "autor": "comparsa del Canguro"
-    }
-  ],
-  "16/01/2024": [
-    {
-      "top": true,
-      "tipo": "CORO",
-      "nombre": "LA FIESTA DE LOS LOCOS",
-      "autor": "Coro de los estudiantes"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LA HUELLA",
-      "autor": "Comparsa de Tarifa"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "LA ALEGRÍA DE MI CASA",
-      "autor": "Chirigota de San Juan de Aznalfarache"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
       "nombre": "LOS AMULETOS",
       "autor": "Andy Morales, Raúl Gálvez y Pablo Gallardo 'Cuartokilo'"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "LO MÍO ES PEOR",
-      "autor": "chirigota de Alcalá de Guadaíra - Curro Quintanilla, Carlos García, Marcos Nogueroles y Diego Letrán"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LA ÚLTIMA CANCIÓN",
-      "autor": "comparsa de cordoba - Javi Lonene"
-    }
-  ],
-  "17/01/2024": [
-    {
-      "top": false,
-      "tipo": "CORO",
-      "nombre": "LOS VITAMINA",
-      "autor": "coro de San Fernando"
-    },
-    {
-      "top": true,
-      "tipo": "COMPARSA",
-      "nombre": "QUE BONITA ES CÁDIZ",
-      "autor": "Luis Ripoll"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "LA HISTORIA INTERMINABLE",
-      "autor": "Chirigota de los Palacios"
-    },
-    {
-      "top": true,
-      "tipo": "COMPARSA",
-      "nombre": "LA ALEGRÍA DE CÁDIZ",
-      "autor": "Manuel Cornejo"
     },
     {
       "top": false,
@@ -353,13 +213,13 @@
       "autor": "Chirigota de Rota"
     },
     {
-      "top": false,
+      "top": true,
       "tipo": "COMPARSA",
-      "nombre": "LA MURALLA",
-      "autor": "comparsa de Morón de la Frontera"
+      "nombre": "LA ALEGRÍA DE CÁDIZ",
+      "autor": "Manuel Cornejo"
     }
   ],
-  "18/01/2024": [
+  "30/01/2024": [
     {
       "top": false,
       "tipo": "CORO",
@@ -369,108 +229,14 @@
     {
       "top": false,
       "tipo": "COMPARSA",
-      "nombre": "¡WELCOME TO CÁDIZ…PICHA!",
-      "autor": "Comparsa de Barbate"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "LOS EXCALVOS",
-      "autor": "chirigota del Barbas"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "MOMOSAPIENS",
-      "autor": "Comparsa de los Barrios"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "NO ERES TÚ SOY YO (LOS EGOCÉNTRICOS)",
-      "autor": "Alvarado"
-    },
-    {
-      "top": true,
-      "tipo": "COMPARSA",
-      "nombre": "LOS GRITOS DE CÁDIZ",
-      "autor": "Sevilla Pecci y Noly"
-    }
-  ],
-  "19/01/2024": [
-    {
-      "top": false,
-      "tipo": "CORO",
-      "nombre": "LA PIÑATA",
-      "autor": "Procopio"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
       "nombre": "LA CONSENTIDA",
       "autor": "Jaime Jesús Cruz y Antonio Medina, David Castro y Clara Isabel Rojas"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LOS OFENDIDITOS",
-      "autor": "Javi Noriega y Raúl Villanueva"
-    },
-    {
-      "top": true,
-      "tipo": "CUARTETO",
-      "nombre": "EN MI CASETA CABE TODO EL MUNDO",
-      "autor": "Iván Romero"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "EL BARRIO CALAVERA",
-      "autor": "Comparsa de Sevilla - Alejandro Arteaga Ramírez, Rafael Fernández Delis y Francisco Javier Sierra Ramírez"
     },
     {
       "top": true,
       "tipo": "CHIRIGOTA",
       "nombre": "LA CALLEJERA INVISIBLE",
       "autor": "El Molina"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "EL CIELITO DE LOS CÓMICOS",
-      "autor": "Comparsa Algeciras"
-    }
-  ],
-  "20/01/2024": [
-    {
-      "top": true,
-      "tipo": "CORO",
-      "nombre": "ASESINATO EN EL CÁDIZ EXPRESS",
-      "autor": "Nandi Miguele"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "¡¡ SE PROHÍBE EL CANTE !!",
-      "autor": "Ramón Zamudio y José Manuel Utrera"
-    },
-    {
-      "top": false,
-      "tipo": "CUARTETO",
-      "nombre": "¡¡HE VUELTO!! (EL BARRIO)",
-      "autor": "Cuarteto de Algeciras"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "EL APOTECARIO",
-      "autor": "comparsa Algeciras - Branco y Malia"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "LOS PIHORROR",
-      "autor": "chirigota de Servando Sabajanes"
     },
     {
       "top": true,
@@ -483,20 +249,6 @@
       "tipo": "CHIRIGOTA",
       "nombre": "TE COMO TU CARA",
       "autor": "chirigota de Écija"
-    }
-  ],
-  "21/01/2024": [
-    {
-      "top": false,
-      "tipo": "CORO",
-      "nombre": "LA COCTELERA",
-      "autor": ""
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "EL MALO MÁS MALOTE DE LAS PELIS DE HARRY POTTER",
-      "autor": "Selu Nieto"
     },
     {
       "top": true,
@@ -506,91 +258,24 @@
     },
     {
       "top": true,
-      "tipo": "CUARTETO",
-      "nombre": "LOS COCOS DE CADI",
-      "autor": "Javier Aguilera y Ángel Piulestán"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "CÁDIZ PURO",
-      "autor": ""
-    },
-    {
-      "top": true,
       "tipo": "CHIRIGOTA",
       "nombre": "LA ÚLTIMA Y NOS VAMOS",
       "autor": "Bizcocho"
+    }
+  ],
+  "31/01/2024": [
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "ASESINATO EN EL CÁDIZ EXPRESS",
+      "autor": "Nandi Miguele"
     },
+
     {
       "top": false,
       "tipo": "COMPARSA",
       "nombre": "LOS DESPERTADORES",
       "autor": "Antiguo grupo de Iván Romero"
-    }
-  ],
-  "22/01/2024": [
-    {
-      "top": true,
-      "tipo": "CORO",
-      "nombre": "EL BAÚL DE LA PIQUER",
-      "autor": "Coro de Barbate"
-    },
-    {
-      "top": true,
-      "tipo": "COMPARSA",
-      "nombre": "EL PASEÍTO",
-      "autor": "Fran Quintana"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "ME TIENES FRITO",
-      "autor": "Roquetas de mar"
-    },
-    {
-      "top": true,
-      "tipo": "COMPARSA",
-      "nombre": "LOS COLGAOS",
-      "autor": "Chapa y Raul Cabrera"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "EL PLANETA DE LOS LITIOS",
-      "autor": "chirigota de Albox"
-    },
-    {
-      "top": true,
-      "tipo": "COMPARSA",
-      "nombre": "LOS POQUITO A POCO",
-      "autor": "Comparsa de Conil - Luis Rossi, Kike Remolino y Óscar Mosteiro"
-    }
-  ],
-  "23/01/2024": [
-    {
-      "top": true,
-      "tipo": "CORO",
-      "nombre": "ESTE CORO ES DE LOCOS",
-      "autor": "Coro de Jesús Monje y José Luis Bustelo"
-    },
-    {
-      "top": true,
-      "tipo": "COMPARSA",
-      "nombre": "DONDE FUIMOS FELICES",
-      "autor": "Germán Rendón"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "LOS GALLITANOS",
-      "autor": "chirigota córdoba - Awito y Diego Fariñas"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LOS REFUGIADOS",
-      "autor": "Punta Umbría - José Manuel Soto y Alejandro Rodríguez"
     },
     {
       "top": true,
@@ -601,16 +286,8 @@
     {
       "top": true,
       "tipo": "COMPARSA",
-      "nombre": "CADÍGENAS",
-      "autor": "comparsa de Rota"
-    }
-  ],
-  "24/01/2024": [
-    {
-      "top": false,
-      "tipo": "CORO",
-      "nombre": "LA COMPARSA DE DOÑA CUARESMA",
-      "autor": "Letra y música de José Miguel Choza"
+      "nombre": "EL PASEÍTO",
+      "autor": "Fran Quintana"
     },
     {
       "top": false,
@@ -619,10 +296,24 @@
       "autor": "José Pereira Joselini y José Joaquín Martínez Aniceto Juaki"
     },
     {
-      "top": false,
+      "top": true,
       "tipo": "COMPARSA",
-      "nombre": "EL ÚLTIMO IMPERIO",
-      "autor": "comparsa de Granada"
+      "nombre": "LOS COLGAOS",
+      "autor": "Chapa y Raul Cabrera"
+    }
+  ],
+  "01/02/2024": [
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "EL BAÚL DE LA PIQUER",
+      "autor": "Coro de Barbate"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "DONDE FUIMOS FELICES",
+      "autor": "Germán Rendón"
     },
     {
       "top": true,
@@ -637,32 +328,6 @@
       "autor": "Manolín Santander, Manolo Cornejo y Pablo Gallardo"
     },
     {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LOS MAESTROS",
-      "autor": "comparsa de El Bosque - Horacio Calvillo y Marcos Nogueroles"
-    }
-  ],
-  "25/01/2024": [
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "EL AVENTURERO",
-      "autor": "comparsa jaén - Hermanos Gutiérrez"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "QUE NO SE PIERDA LA CARGA",
-      "autor": "Sergio Mora Campos"
-    },
-    {
-      "top": false,
-      "tipo": "COMPARSA",
-      "nombre": "LA TINTA OBRERA",
-      "autor": "Comparsa de Hueva - Nelli Conde y Víctor Quintero"
-    },
-    {
       "top": true,
       "tipo": "CHIRIGOTA",
       "nombre": "LOS CHABOLIS",
@@ -673,12 +338,6 @@
       "tipo": "COMPARSA",
       "nombre": "Y SEGUIMOS CANTANDO",
       "autor": "Piru y Tomate"
-    },
-    {
-      "top": false,
-      "tipo": "CHIRIGOTA",
-      "nombre": "TÚ HAZME CASO A MI",
-      "autor": "chirigota de Mairena del Aljarafe"
     },
     {
       "top": true,
