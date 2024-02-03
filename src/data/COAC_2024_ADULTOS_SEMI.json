@@ -1,0 +1,190 @@
+{
+  "04/02/2024": [
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "EL GREMIO",
+      "autor": "Chapa"
+    },
+    {
+      "top": true,
+      "tipo": "CHIRIGOTA",
+      "nombre": "QUE NI LAS HAMBRE LAS VAMO A SENTÍ",
+      "autor": "selu"
+    },
+    {
+      "top": true,
+      "tipo": "CUARTETO",
+      "nombre": "PUNK Y CIRCO LA LUCHA CONTINÚA",
+      "autor": "Cuarteto del Gago"
+    },
+    {
+      "top": false,
+      "tipo": "COMPARSA",
+      "nombre": "VUELVE YA EL 3X4",
+      "autor": "Faly Pastrana y Marcos Pastrana"
+    },
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "El paraíso",
+      "autor": "Luis Rivero"
+    },
+    {
+      "top": true,
+      "tipo": "CHIRIGOTA",
+      "nombre": "EL GRINCH DE CAI",
+      "autor": "sherif"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "LA OVEJA NEGRA",
+      "autor": "Martínez Ares"
+    },
+    {
+      "top": false,
+      "tipo": "CHIRIGOTA",
+      "nombre": "TE HE DICHO 1.748.654 VECES QUE NO SOY EXAGERAO (LOS EXAGERAOS)",
+      "autor": "chirigota de los Villegas"
+    }
+  ],
+  "05/02/2024": [
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "LOS LUCIÉRNAGAS",
+      "autor": "Julio Pardo Carillo y Antonio Riva"
+    },
+    {
+      "top": false,
+      "tipo": "CHIRIGOTA",
+      "nombre": "EL NIÑO DE ISABELITA 2",
+      "autor": "Chirigota de Rota"
+    },
+    {
+      "top": true,
+      "tipo": "CUARTETO",
+      "nombre": "EN MI CASETA CABE TODO EL MUNDO",
+      "autor": "Iván Romero"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "LA RESBALAERA, UNA COMPARSA DE TODA LA VIDA",
+      "autor": "Nene Cheza"
+    },
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "LA FIESTA DE LOS LOCOS",
+      "autor": "Coro de los estudiantes"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "LA ALEGRÍA DE CÁDIZ",
+      "autor": "Manuel Cornejo"
+    },
+    {
+      "top": true,
+      "tipo": "CHIRIGOTA",
+      "nombre": "LA CALLEJERA INVISIBLE",
+      "autor": "El Molina"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "LOS SACRIFICAOS",
+      "autor": "Jona"
+    }
+  ],
+  "06/02/2024": [
+    {
+      "top": false,
+      "tipo": "CORO",
+      "nombre": "LOS ILUMINADOS",
+      "autor": "David Fernández y José Manuel Pedrosa, Kike Remolino"
+    },
+    {
+      "top": true,
+      "tipo": "CHIRIGOTA",
+      "nombre": "TE COMO TU CARA",
+      "autor": "chirigota de Écija"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "EL JOYERO",
+      "autor": "Carapapa"
+    },
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "ASESINATO EN EL CÁDIZ EXPRESS",
+      "autor": "Nandi Miguele"
+    },
+    {
+      "top": true,
+      "tipo": "CHIRIGOTA",
+      "nombre": "LA ÚLTIMA Y NOS VAMOS",
+      "autor": "Bizcocho"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "LOS COLGAOS",
+      "autor": "Chapa y Raul Cabrera"
+    },
+    {
+      "top": true,
+      "tipo": "CHIRIGOTA",
+      "nombre": "LA CHIRIGOTA CLÁSICA",
+      "autor": "Manolín Santander"
+    }
+  ],
+  "07/02/2024": [
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "EL BAÚL DE LA PIQUER",
+      "autor": "Coro de Barbate"
+    },
+    {
+      "top": false,
+      "tipo": "CHIRIGOTA",
+      "nombre": "LOS PLÁCIDOS DOMINGOS",
+      "autor": "José Pereira Joselini y José Joaquín Martínez Aniceto Juaki"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "DONDE FUIMOS FELICES",
+      "autor": "Germán Rendón"
+    },
+    {
+      "top": true,
+      "tipo": "CUARTETO",
+      "nombre": "LOS COCOS DE CADI",
+      "autor": "Javier Aguilera y Ángel Piulestán"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "Y SEGUIMOS CANTANDO",
+      "autor": "Piru y Tomate"
+    },
+    {
+      "top": true,
+      "tipo": "CHIRIGOTA",
+      "nombre": "LOS CHABOLIS",
+      "autor": "Chirigota de los Molina de Chiclana"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "LA CHIRIGOTERA",
+      "autor": "el Lacio y Tamara Beardo"
+    }
+  ]
+}
