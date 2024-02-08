@@ -1,0 +1,101 @@
+{
+  "09/02/2024": [
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "LOS LUCIÉRNAGAS",
+      "autor": "Julio Pardo Carillo y Antonio Riva"
+    },
+    {
+      "top": false,
+      "tipo": "CHIRIGOTA",
+      "nombre": "TE HE DICHO 1.748.654 VECES QUE NO SOY EXAGERAO (LOS EXAGERAOS)",
+      "autor": "chirigota de los Villegas"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "LOS SACRIFICAOS",
+      "autor": "Jona"
+    },
+    {
+      "top": true,
+      "tipo": "CUARTETO",
+      "nombre": "EN MI CASETA CABE TODO EL MUNDO",
+      "autor": "Iván Romero"
+    },
+
+    {
+      "top": false,
+      "tipo": "CORO",
+      "nombre": "LOS ILUMINADOS",
+      "autor": "David Fernández y José Manuel Pedrosa, Kike Remolino"
+    },
+    {
+      "top": true,
+      "tipo": "CHIRIGOTA",
+      "nombre": "LA CALLEJERA INVISIBLE",
+      "autor": "El Molina"
+    },
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "LA OVEJA NEGRA",
+      "autor": "Martínez Ares"
+    },
+
+    {
+      "top": true,
+      "tipo": "CUARTETO",
+      "nombre": "LOS COCOS DE CADI",
+      "autor": "Javier Aguilera y Ángel Piulestán"
+    },
+
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "El paraíso",
+      "autor": "Luis Rivero"
+    },
+    {
+      "top": true,
+      "tipo": "CHIRIGOTA",
+      "nombre": "QUE NI LAS HAMBRE LAS VAMO A SENTÍ",
+      "autor": "selu"
+    },
+
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "EL JOYERO",
+      "autor": "Carapapa"
+    },
+    {
+      "top": true,
+      "tipo": "CUARTETO",
+      "nombre": "PUNK Y CIRCO LA LUCHA CONTINÚA",
+      "autor": "Cuarteto del Gago"
+    },
+
+    {
+      "top": true,
+      "tipo": "CORO",
+      "nombre": "EL GREMIO",
+      "autor": "Chapa"
+    },
+
+    {
+      "top": true,
+      "tipo": "CHIRIGOTA",
+      "nombre": "EL GRINCH DE CAI",
+      "autor": "sherif"
+    },
+
+    {
+      "top": true,
+      "tipo": "COMPARSA",
+      "nombre": "LOS COLGAOS",
+      "autor": "Chapa y Raul Cabrera"
+    }
+  ]
+}
