@@ -1,9 +1,9 @@
 const consoleExtraMsg = () => console.log(`\n░░░▒█▀▀█░▒█░▒█░▀█▀░▒█▀▀▀░▒█▄░▒█░░░▒█▀▀▄░█▀▀▄░▒█▄░▒█░▀▀█▀▀░█▀▀▄░░░▒█░▒█░▒█▀▀▀█░▒█░░▒█░▀█\n░░░▒█░▒█░▒█░▒█░▒█░░▒█▀▀▀░▒█▒█▒█░░░▒█░░░▒█▄▄█░▒█▒█▒█░░▒█░░▒█▄▄█░░░▒█▀▀█░▒█░░▒█░▒▀▄▄▄▀░█▀\n░░░░▀▀█▄░░▀▄▄▀░▄█▄░▒█▄▄▄░▒█░░▀█░░░▒█▄▄▀▒█░▒█░▒█░░▀█░░▒█░░▒█░▒█░░░▒█░▒█░▒█▄▄▄█░░░▒█░░░▄░\n`);
 
 const DATE_PRELIMINARES = "2023-01-23T20:00:00";
-const DATE_CUARTOS = "2024-01-26T20:00:00";
-const DATE_SEMIFINALES = "2024-02-04T20:00:00";
-const DATE_FINAL = "2024-02-09T20:00:00";
+const DATE_CUARTOS = "2025-02-14T20:00:00";
+const DATE_SEMIFINALES = "2025-02-23T20:00:00";
+const DATE_FINAL = "2025-02-28T20:00:00";
 const LIVE_URL_COAC = "https://www.youtube.com/@ONDACADIZCARNAVAL/streams";
 const MIN_HOUR_SESSION = "20:00";
 const MAX_HOUR_SESSION = "04:00";
