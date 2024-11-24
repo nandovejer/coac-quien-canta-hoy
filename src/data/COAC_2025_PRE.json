@@ -33,7 +33,7 @@
             "ciudad": "Marchena"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "El corazón de Cádiz",
             "autor": "Rafael M. Pastrana y Marcos Pastrana",
@@ -51,7 +51,7 @@
     ],
     "24/01/2025": [
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Cuando tu vas yo vengo",
             "autor": "La chirigota de Carlos Pérez",
@@ -59,7 +59,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "COMPARSA",
             "nombre": "Los Wonderful",
             "autor": "La comparsa de Fran Quintana",
@@ -67,7 +67,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los inhumanos",
             "autor": "Los bipolares",
@@ -75,7 +75,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CUARTETO",
             "nombre": "Ku kux klan klan",
             "autor": "El cuarteto del Gago",
@@ -83,7 +83,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Comparsa Los Calafata: Fuimos a por tabaco",
             "autor": "La chirigota de Ale el Peluca",
@@ -91,7 +91,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "La Mala",
             "autor": "Rober Gómez y Pepe Juan Pastrana",
@@ -109,7 +109,7 @@
             "ciudad": "Morón"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los muchachos del congelao",
             "autor": "La chirigota del Canijo",
@@ -125,7 +125,7 @@
             "ciudad": "Sevilla"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los Pimpinela de la plaza Fragela",
             "autor": "La chirigota del Molina y el Melli",
@@ -133,7 +133,7 @@
             "ciudad": "Chiclana"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "COMPARSA",
             "nombre": "La Resistencia",
             "autor": "La comparsa de David Carapapa",
@@ -141,7 +141,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Las Antiquarias",
             "autor": "Ramón Peñalver, César Dos Santos y Noly",
@@ -151,7 +151,7 @@
     ],
     "26/01/2025": [
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CORO",
             "nombre": "Las entrañas de Cádiz",
             "autor": "El coro de Pedrosa y David Fernández",
@@ -159,7 +159,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los malfollaos",
             "autor": "La chirigota de Juanma Bocúñano",
@@ -167,7 +167,7 @@
             "ciudad": "San Fernando"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "COMPARSA",
             "nombre": "Las Perras",
             "autor": "Las niñas de Alcalá",
@@ -191,7 +191,7 @@
             "ciudad": "Granada"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los cenadores rumanos",
             "autor": "La chirigota de Diego Letrán",
@@ -201,7 +201,7 @@
     ],
     "27/01/2025": [
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CORO",
             "nombre": "La palabra de Dios",
             "autor": "El coro de Jesús Monje",
@@ -217,7 +217,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "Carnavalandia",
             "autor": "La comparsa de Andy",
@@ -225,7 +225,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los auténticos pitorrisas",
             "autor": "La chirigota de los Alvarado",
@@ -233,7 +233,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "COMPARSA",
             "nombre": "La Tribu",
             "autor": "La comparsa del Chapa y Raúl Cabrera",
@@ -241,7 +241,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Por si acaso: Las Precavidas",
             "autor": "La chirigota de Anroñito y Fermín",
@@ -283,7 +283,7 @@
             "ciudad": "Puertollano"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Que sea lo que Dios quiera",
             "autor": "La chirigota de Antoñito Molina",
@@ -301,7 +301,7 @@
     ],
     "29/01/2025": [
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CORO",
             "nombre": "La desafinada",
             "autor": "El coro de Nandi Migueles",
@@ -309,7 +309,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Que de gente muere por Cai",
             "autor": "La nueva chirigota de Toté",
@@ -325,7 +325,7 @@
             "ciudad": "Vilches"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "COMPARSA",
             "nombre": "Las Ratas",
             "autor": "La comparsa de Bienvenido",
@@ -375,10 +375,10 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "COMPARSA",
             "nombre": "¡Payaso!",
-            "autor": "La comparsa de Cheza",
+            "autor": "Nene Cheza y zampi",
             "2024": "La Resbalaera",
             "ciudad": "Cádiz"
         },
@@ -391,7 +391,7 @@
             "ciudad": "S. José de la Rinconada"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "La Majadería",
             "autor": "La comparsa de los hermanos Santander",
@@ -401,7 +401,7 @@
     ],
     "31/01/2025": [
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CORO",
             "nombre": "El Grimorio",
             "autor": "El coro de Antonio Segura y Fran Quintana",
@@ -417,7 +417,7 @@
             "ciudad": "Granada"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "La Valla",
             "autor": "La comparsa de Marta Ortiz",
@@ -441,7 +441,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los hermanos del buen fin",
             "autor": "La chirigota del Bizcocho",
@@ -451,7 +451,7 @@
     ],
     "01/02/2025": [
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CORO",
             "nombre": "Cádiz, el show",
             "autor": "El coro de Luis Rivero",
@@ -459,7 +459,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los Butaneros chirigota de CAICDC",
             "autor": "La nueva chirigota de Kike Remolino y Javi el Ojo",
@@ -467,7 +467,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CUARTETO",
             "nombre": "Un clásico nunca falla",
             "autor": "El Cuarteto de la Cantera",
@@ -475,7 +475,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "La Chulita",
             "autor": "La comparsa de Tamara Beardo",
@@ -483,7 +483,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "El que pueda que empate",
             "autor": "La nueva chirigota de José Pereira Joselini",
@@ -501,7 +501,7 @@
     ],
     "02/02/2025": [
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CORO",
             "nombre": "Los Malhablao",
             "autor": "El coro de Paco Mora y Ramón Ruiz",
@@ -509,7 +509,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "No es lo mismo contarlo que vivirlo",
             "autor": "La chirigota del Lacio",
@@ -533,7 +533,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "COMPARSA",
             "nombre": "El Cementerio",
             "autor": "La comparsa del Jona",
@@ -541,7 +541,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Un muerto muy vivo",
             "autor": "La chirigota del Perrichi",
@@ -551,7 +551,7 @@
     ],
     "03/02/2025": [
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CORO",
             "nombre": "Son y Sal",
             "autor": "El coro de Procopio y Lacio",
@@ -559,7 +559,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "De buena tinta",
             "autor": "José Gutiérrez",
@@ -583,7 +583,7 @@
             "ciudad": "Algeciras"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Apartamentos turísticos Juani Wainjauas",
             "autor": "La chirigota del Selu",
@@ -601,7 +601,7 @@
     ],
     "04/02/2025": [
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CORO",
             "nombre": "¡Qué barbaridad!",
             "autor": "El coro del Chapa",
@@ -651,7 +651,7 @@
     ],
     "05/02/2025": [
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CORO",
             "nombre": "La suerte de Cádiz",
             "autor": "El coro de San Fernando",
@@ -675,7 +675,7 @@
             "ciudad": "Sevilla"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "COMPARSA",
             "nombre": "Los Poderosos",
             "autor": "La comparsa de Manuel Cornejo",
@@ -725,7 +725,7 @@
             "ciudad": "Sevilla"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los Cagones",
             "autor": "La chirigota de Manolín Santander",
@@ -741,7 +741,7 @@
             "ciudad": "Tarifa"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Las Precavidas",
             "autor": "La chirigota de Anroñito y Fermín",
@@ -751,7 +751,7 @@
     ],
     "07/02/2025": [
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CORO",
             "nombre": "El gallinero",
             "autor": "El coro de los Estudiantes",
@@ -759,7 +759,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "COMPARSA",
             "nombre": "Carmen",
             "autor": "La comparsa de Dos Hermanas",
@@ -767,7 +767,7 @@
             "ciudad": "Dos Hermanas"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los golpes de pecho",
             "autor": "La chirigota del Sofri",
@@ -809,7 +809,7 @@
             "ciudad": "Ceuta"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Una chirigota con shoniketh3",
             "autor": "Grupo de 'Los plácidos domingos'",
@@ -833,7 +833,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "COMPARSA",
             "nombre": "Los del otro barrio",
             "autor": "La Comparsa de la Cantera",
@@ -841,7 +841,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Al cielo con él",
             "autor": "La chirigota de Écija",
@@ -875,7 +875,7 @@
             "ciudad": "Alcalá de Guadaira"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los James Bond que da gloria verlos",
             "autor": "La chirigota del Yuyu",
@@ -891,7 +891,7 @@
             "ciudad": "Chiclana"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Cai, los que van a cantar te lasudan Los Disléxicos",
             "autor": "La chirigota de los Villegas",
@@ -909,7 +909,7 @@
     ],
     "10/02/2025": [
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CORO",
             "nombre": "El lado oscuro",
             "autor": "El coro de Antonio Rivas y Julio Pardo",
@@ -949,7 +949,7 @@
             "ciudad": "Marbella"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Vuelvo de gira con Bob Dylan",
             "autor": "La chirigota del Cascana",
@@ -983,7 +983,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "COMPARSA",
             "nombre": "DesOBDC",
             "autor": "La comparsa de Germán",
@@ -999,7 +999,7 @@
             "ciudad": "Roquetas de Mar"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "Más típico no lo hay, de Conil a Cai",
             "autor": "La comparsa de Conil",
@@ -1017,7 +1017,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Ni fu ni fa",
             "autor": "La chirigota de Luis María",
@@ -1033,7 +1033,7 @@
             "ciudad": "Huelva"
         },
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los Sherijuegos",
             "autor": "La chirigota del Sheriff",
@@ -1059,7 +1059,7 @@
     ],
     "13/02/2025": [
         {
-            "ranking": "standar",
+            "ranking": "top",
             "modalidad": "CORO",
             "nombre": "La fábrica de...chocolate",
             "autor": "El coro de Barbate",
@@ -1091,7 +1091,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "standar",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Quien guarda, halla",
             "autor": "La chirigota de Miguel Ángel Llull y David Verde",
