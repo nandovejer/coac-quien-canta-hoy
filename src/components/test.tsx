@@ -2,12 +2,12 @@
 // import {
 //   DATE_PRELIMINARES, classNameBoxActive,
 //   classNameGradient
-// } from "../data/ConstantsCoac2024";
+// } from "../data/CONSTANT_COAC_2025";
 // import { parseDate } from "../utils/handleDate";
 
 // interface Group {
 //   top?: boolean;
-//   tipo: string;
+//   modalidad: string;
 //   nombre: string;
 //   autor: string;
 //   id?: string;
@@ -81,7 +81,7 @@
 //                       <article id={group.id} key={index} className={rowClass}>
 //                         <div className="px-4 py-2 ">
 //                           <div className="flex flex-col justify-center h-full w-20">
-//                             <span className="">{group.tipo}</span>
+//                             <span className="">{group.modalidad}</span>
 //                             <span className={onAirClass}> {isLive ? "📡EN DIRECTO" : formattedTime}</span>
 //                           </div>
 //                         </div>

@@ -2,12 +2,12 @@ import React from "react";
 import {
   DATE_PRELIMINARES, classNameBoxActive,
   classNameGradient
-} from "../data/ConstantsCoac2024";
+} from "../data/CONSTANT_COAC_2025";
 import { parseDate } from "../utils/handleDate";
 
 interface Group {
-  top?: boolean;
-  tipo: string;
+  ranking: string;
+  modalidad: string;
   nombre: string;
   autor: string;
   id?: string;
@@ -68,43 +68,48 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
           <section className="min-w-full divide-y divide-gray-200">
             <header className={`flex flex-auto ${classNameGradient}`}>
 
-              <div className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
-                Hora / Tipo
+              <div className="px-4 py-3 text-left text-xs font-medium text-white uppercase ">
+                Modalidad
               </div>
-              <div className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
-                Autor / Nombre de agrupación
+              <div className="px-4 py-3 text-left text-xs font-medium text-white uppercase">
+               Nombre de agrupación
               </div>
 
             </header>
             <main className="divide-y divide-gray-200">
               {groups.map((group, index) => {
                 const startTime = new Date(currentFaseDate);
-                const timeIncrement = 30;
+                const timeIncrement = 35; // Tiempo de actuación más el montaje
                 const currentRowTime = new Date(
                   startTime.getTime() + index * timeIncrement * 60000
                 );
-                const formattedTime = currentRowTime.toLocaleTimeString([], {
+                const formattedTime = currentRowTime.toLocaleTimeString("es-ES", {
                   hour: '2-digit',
                   minute: '2-digit',
                 });
 
-                const isLive = false; // Aquí se podría implementar una lógica para determinar si el grupo está en vivo
-                const highlightRowClass = group.autor ? (group.top ? `bg-rose-700 text-rose-50` : `bg-orange-50`) : '';
+                let isLive = false; // Aquí se podría implementar una lógica para determinar si el grupo está en vivo
+                const ranking = {
+                  top: "bg-rose-700 text-rose-50",
+                  ok: "bg-amber-300 text-amber-700",
+                  standar: "`bg-orange-50"
+                }
+                const highlightRowClass = group.autor ? ranking[group.ranking] : '';
                 const rowClass = "flex flex-auto" + " " + highlightRowClass;
-                const onAirClass = isLive ? " bg-pink-50 font-bold text-pink-700 text-white blinking" : "";
+                const onAirClass = isLive ? " bg-pink-50 font-bold text-pink-700 text-white blinking" : " text-xs";
 
                 return (
                   <article id={group.id} key={index} className={rowClass}>
                     <div className="px-4 py-2 ">
-                      <div className="flex flex-col justify-center h-full w-20">
-                        <span>{group.tipo}</span>
-                        <span className={onAirClass}> {isLive ? "📡EN DIRECTO" : formattedTime}</span>
+                      <div title="Estimación más o menos teniendo en cuenta actuación más el montaje" className="flex flex-col justify-center h-full w-15 text-xs">
+                        <span className="font-bold">{group.modalidad}</span>
+                        <span className={onAirClass}> {isLive ? "📡EN DIRECTO" : formattedTime + " aprox."}</span>
                       </div>
                     </div>
                     <div className="px-4 py-4">
                       <strong className="text-ellipsis overflow-hidden">{group.nombre}</strong>
                       <p className="sm:text-xl capitalize text-ellipsis overflow-hidden">
-                        {group.autor ? (group.top ? `🔥${group.autor}🔥` : `${group.autor}`) : ''}
+                        {group.autor ? (group.ranking === "top" ? `🔥${group.autor}` : `${group.autor}`) : ''}
                       </p>
                     </div>
                   </article>

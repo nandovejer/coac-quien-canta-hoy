@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 interface SearchAuthorGrupo {
-    tipo: string;
+    modalidad: string;
     nombre: string;
     autor: string;
     id?: string;
@@ -44,7 +44,7 @@ const SearchAuthor: React.FC<SearchAuthorProps> = ({ SearchAuthorData }) => {
                                 ? <a
                                     key={`${fechaIndex}-${grupoIndex}`} // Mejora para la clave única
                                     href={`#${grupo.id}`}
-                                    title={`Canta su ${grupo.tipo} el ${fecha}`}
+                                    title={`Canta su ${grupo.modalidad} el ${fecha}`}
                                     className="bg-blue-200 hover:bg-blue-300 py-1 px-2 rounded-lg text-sm"
                                 >
                                     {grupo.autor}
