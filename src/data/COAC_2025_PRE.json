@@ -3,7 +3,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los trastos",
+            "nombre": "Los trastos",
             "autor": "Pepe J. Pastrana y Pepito Martínez",
             "2024": "Pueblejito la frontera",
             "ciudad": "Cádiz"
@@ -11,7 +11,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los cabecita loca",
+            "nombre": "Los cabecita loca",
             "autor": "La chirigota del Bomba",
             "2024": "Nueva agrupación",
             "ciudad": "Sanlúcar de Barrameda"
@@ -19,7 +19,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los hijos del Cañaveral",
+            "nombre": "Los hijos del Cañaveral",
             "autor": "José Á. López Molina y José Á. López Rondón",
             "2024": "En 2020: El letargo",
             "ciudad": "Algeciras"
@@ -27,7 +27,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los turistas se la dan de artistas: Los Urbanitas",
+            "nombre": "Los turistas se la dan de artistas: Los Urbanitas",
             "autor": "La chirigota de Marchena",
             "2024": "Nueva agrupación",
             "ciudad": "Marchena"
@@ -35,7 +35,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "El corazón de Cádiz",
+            "nombre": "El corazón de Cádiz",
             "autor": "Rafael M. Pastrana y Marcos Pastrana",
             "2024": "Vuelve ya el 3x4",
             "ciudad": "Cádiz"
@@ -43,7 +43,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "¡Cariño...que pelusilla me tienes!",
+            "nombre": "¡Cariño...que pelusilla me tienes!",
             "autor": "La chirigota camera del Chicho",
             "2024": "Cariño necesito mi espacio",
             "ciudad": "Camas"
@@ -53,7 +53,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Cuando tu vas yo vengo",
+            "nombre": "Cuando tu vas yo vengo",
             "autor": "La chirigota de Carlos Pérez",
             "2024": "Los que salieron perdiendo",
             "ciudad": "Cádiz"
@@ -61,7 +61,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los Wonderful",
+            "nombre": "Los Wonderful",
             "autor": "La comparsa de Fran Quintana",
             "2024": "El Paseíto",
             "ciudad": "Cádiz"
@@ -69,7 +69,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los inhumanos",
+            "nombre": "Los inhumanos",
             "autor": "Los bipolares",
             "2024": "Carnaval me cago en tus muertos",
             "ciudad": "Cádiz"
@@ -77,7 +77,7 @@
         {
             "ranking": "standar",
             "modalidad": "CUARTETO",
-            "2025": "Ku kux klan klan",
+            "nombre": "Ku kux klan klan",
             "autor": "El cuarteto del Gago",
             "2024": "Punk y circo, la lucha continúa",
             "ciudad": "Cádiz"
@@ -85,7 +85,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Comparsa Los Calafata: Fuimos a por tabaco",
+            "nombre": "Comparsa Los Calafata: Fuimos a por tabaco",
             "autor": "La chirigota de Ale el Peluca",
             "2024": "Sácamela de la boca",
             "ciudad": "Cádiz"
@@ -93,7 +93,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "La Mala",
+            "nombre": "La Mala",
             "autor": "Rober Gómez y Pepe Juan Pastrana",
             "2024": "Cádiz Puro",
             "ciudad": "Cádiz"
@@ -103,7 +103,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los gamberros",
+            "nombre": "Los gamberros",
             "autor": "Samuel Gallardo",
             "2024": "La Muralla",
             "ciudad": "Morón"
@@ -111,7 +111,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los muchachos del congelao",
+            "nombre": "Los muchachos del congelao",
             "autor": "La chirigota del Canijo",
             "2024": "En 2020: Chernobyl el musical",
             "ciudad": "Cádiz"
@@ -119,7 +119,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Viaje a la vida",
+            "nombre": "Viaje a la vida",
             "autor": "Jesús Martínez Suso y Javier Vargas",
             "2024": "Nueva agrupación",
             "ciudad": "Sevilla"
@@ -127,7 +127,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los Pimpinela de la plaza Fragela",
+            "nombre": "Los Pimpinela de la plaza Fragela",
             "autor": "La chirigota del Molina y el Melli",
             "2024": "La callejera invisible",
             "ciudad": "Chiclana"
@@ -135,7 +135,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "La Resistencia",
+            "nombre": "La Resistencia",
             "autor": "La comparsa de David Carapapa",
             "2024": "El Joyero",
             "ciudad": "Cádiz"
@@ -143,7 +143,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Las Antiquarias",
+            "nombre": "Las Antiquarias",
             "autor": "Ramón Peñalver, César Dos Santos y Noly",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -153,7 +153,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "Las entrañas de Cádiz",
+            "nombre": "Las entrañas de Cádiz",
             "autor": "El coro de Pedrosa y David Fernández",
             "2024": "Los Iluminados",
             "ciudad": "Cádiz"
@@ -161,7 +161,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los malfollaos",
+            "nombre": "Los malfollaos",
             "autor": "La chirigota de Juanma Bocúñano",
             "2024": "Anonymous Gaditano",
             "ciudad": "San Fernando"
@@ -169,7 +169,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Las Perras",
+            "nombre": "Las Perras",
             "autor": "Las niñas de Alcalá",
             "2024": "La Consentida",
             "ciudad": "Alcalá de Guadaira"
@@ -177,7 +177,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Una chirigota grande",
+            "nombre": "Una chirigota grande",
             "autor": "Daniel Girón, A. González y A. Carrillo",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -185,7 +185,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Bendita tú eres",
+            "nombre": "Bendita tú eres",
             "autor": "Fran Rodríguez",
             "2024": "Los Estrellas",
             "ciudad": "Granada"
@@ -193,7 +193,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los cenadores rumanos",
+            "nombre": "Los cenadores rumanos",
             "autor": "La chirigota de Diego Letrán",
             "2024": "Los del canal sur",
             "ciudad": "Cádiz"
@@ -203,7 +203,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "La palabra de Dios",
+            "nombre": "La palabra de Dios",
             "autor": "El coro de Jesús Monje",
             "2024": "Este coro es de locos",
             "ciudad": "Cádiz"
@@ -211,7 +211,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "5 minutitos más",
+            "nombre": "5 minutitos más",
             "autor": "La chirigota del Sise",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -219,7 +219,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Carnavalandia",
+            "nombre": "Carnavalandia",
             "autor": "La comparsa de Andy",
             "2024": "Los Amuletos",
             "ciudad": "Cádiz"
@@ -227,7 +227,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los auténticos pitorrisas",
+            "nombre": "Los auténticos pitorrisas",
             "autor": "La chirigota de los Alvarado",
             "2024": "No eres tú soy yo (Los Egocéntricos)",
             "ciudad": "Cádiz"
@@ -235,7 +235,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "La Tribu",
+            "nombre": "La Tribu",
             "autor": "La comparsa del Chapa y Raúl Cabrera",
             "2024": "Los Colgaos",
             "ciudad": "Cádiz"
@@ -243,7 +243,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Por si acaso: Las Precavidas",
+            "nombre": "Por si acaso: Las Precavidas",
             "autor": "La chirigota de Anroñito y Fermín",
             "2024": "En 2023: Los desgraciaditos",
             "ciudad": "Puerto Real"
@@ -253,7 +253,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "Los Guardianes del Dios Momo",
+            "nombre": "Los Guardianes del Dios Momo",
             "autor": "El coro de Fali Pastrana",
             "2024": "En 2020: Los Garabatos",
             "ciudad": "Cádiz"
@@ -261,7 +261,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Cositas de Cádiz",
+            "nombre": "Cositas de Cádiz",
             "autor": "La comparsa de Los Niños de El Puerto",
             "2024": "Agüita tapá",
             "ciudad": "El Puerto de Sta. Mª"
@@ -269,7 +269,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Voces esmallaas",
+            "nombre": "Voces esmallaas",
             "autor": "Víctor Jurado y Juan Manuel Beardo",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -277,7 +277,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los Artistas",
+            "nombre": "Los Artistas",
             "autor": "\"La victoria\" de Puertollano",
             "2024": "Nueva agrupación",
             "ciudad": "Puertollano"
@@ -285,7 +285,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Que sea lo que Dios quiera",
+            "nombre": "Que sea lo que Dios quiera",
             "autor": "La chirigota de Antoñito Molina",
             "2024": "El niño de Isabelita 2",
             "ciudad": "Rota"
@@ -293,7 +293,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Donde los sueños se hacen realidad",
+            "nombre": "Donde los sueños se hacen realidad",
             "autor": "Damián Gómez y José Utrera",
             "2024": "Las mujeres de la vida",
             "ciudad": "Sevilla"
@@ -303,7 +303,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "La desafinada",
+            "nombre": "La desafinada",
             "autor": "El coro de Nandi Migueles",
             "2024": "Asesinato en el Cádiz Express",
             "ciudad": "Cádiz"
@@ -311,7 +311,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Que de gente muere por Cai",
+            "nombre": "Que de gente muere por Cai",
             "autor": "La nueva chirigota de Toté",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -319,7 +319,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los charlatanes",
+            "nombre": "Los charlatanes",
             "autor": "La comparsa de Vilches",
             "2024": "Los taquilleros",
             "ciudad": "Vilches"
@@ -327,7 +327,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Las Ratas",
+            "nombre": "Las Ratas",
             "autor": "La comparsa de Bienvenido",
             "2024": "En 2017: Los Irracionales",
             "ciudad": "Cádiz"
@@ -335,7 +335,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Cádiz de la frontera",
+            "nombre": "Cádiz de la frontera",
             "autor": "Quique Parodi y Tatán",
             "2024": "Los de la arritmia al 3x4",
             "ciudad": "Cádiz"
@@ -343,7 +343,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los Gorriones",
+            "nombre": "Los Gorriones",
             "autor": "Tomy Alemania y Patricia Andrés",
             "2024": "En 2023: Cádiz despierta",
             "ciudad": "Chiclana"
@@ -353,7 +353,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "Ley Natura",
+            "nombre": "Ley Natura",
             "autor": "El coro de Chiclana",
             "2024": "En 2023: ¡Vive!",
             "ciudad": "Chiclana"
@@ -361,7 +361,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los Plumeritos",
+            "nombre": "Los Plumeritos",
             "autor": "La comparsa de David Campano",
             "2024": "Los Despojaos",
             "ciudad": "Sevilla"
@@ -369,7 +369,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Martín el encantador",
+            "nombre": "Martín el encantador",
             "autor": "Isaac Lavi",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -377,7 +377,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "¡Payaso!",
+            "nombre": "¡Payaso!",
             "autor": "La comparsa de Cheza",
             "2024": "La Resbalaera",
             "ciudad": "Cádiz"
@@ -385,7 +385,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los que tienen el cielo ganao",
+            "nombre": "Los que tienen el cielo ganao",
             "autor": "La chirigota del Suso",
             "2024": "En 2022: Yo no me quito del medio",
             "ciudad": "S. José de la Rinconada"
@@ -393,7 +393,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "La Majadería",
+            "nombre": "La Majadería",
             "autor": "La comparsa de los hermanos Santander",
             "2024": "Las Herederas",
             "ciudad": "Cádiz"
@@ -403,7 +403,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "El Grimorio",
+            "nombre": "El Grimorio",
             "autor": "El coro de Antonio Segura y Fran Quintana",
             "2024": "La Coctelera",
             "ciudad": "Cádiz"
@@ -411,7 +411,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "El gran comandante",
+            "nombre": "El gran comandante",
             "autor": "Juanmi Armuña, Nene Cheza y Luis Mari F.",
             "2024": "El último imperio",
             "ciudad": "Granada"
@@ -419,7 +419,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "La Valla",
+            "nombre": "La Valla",
             "autor": "La comparsa de Marta Ortiz",
             "2024": "En 2023: Las musas",
             "ciudad": "Cádiz"
@@ -427,7 +427,7 @@
         {
             "ranking": "standar",
             "modalidad": "CUARTETO",
-            "2025": "O.N.G. Organización no gaditana Cuartetos sin fronteras",
+            "nombre": "O.N.G. Organización no gaditana Cuartetos sin fronteras",
             "autor": "Cuarteto de Ciudad Real",
             "2024": "Nueva agrupación",
             "ciudad": "Alcazar de San Juan"
@@ -435,7 +435,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Las Carmelas",
+            "nombre": "Las Carmelas",
             "autor": "La comparsa de Borja Romero",
             "2024": "En 2023: La joñi: diosa del Carnaval",
             "ciudad": "Cádiz"
@@ -443,7 +443,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los hermanos del buen fin",
+            "nombre": "Los hermanos del buen fin",
             "autor": "La chirigota del Bizcocho",
             "2024": "La última y nos vamos",
             "ciudad": "S. José de la Rinconada"
@@ -453,7 +453,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "Cádiz, el show",
+            "nombre": "Cádiz, el show",
             "autor": "El coro de Luis Rivero",
             "2024": "El Paraíso",
             "ciudad": "Cádiz"
@@ -461,7 +461,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los Butaneros chirigota de CAICDC",
+            "nombre": "Los Butaneros chirigota de CAICDC",
             "autor": "La nueva chirigota de Kike Remolino y Javi el Ojo",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -469,7 +469,7 @@
         {
             "ranking": "standar",
             "modalidad": "CUARTETO",
-            "2025": "Un clásico nunca falla",
+            "nombre": "Un clásico nunca falla",
             "autor": "El Cuarteto de la Cantera",
             "2024": "En 2023: Los vigilantes de la laja",
             "ciudad": "Cádiz"
@@ -477,7 +477,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "La Chulita",
+            "nombre": "La Chulita",
             "autor": "La comparsa de Tamara Beardo",
             "2024": "La Chirogotera",
             "ciudad": "Cádiz"
@@ -485,7 +485,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "El que pueda que empate",
+            "nombre": "El que pueda que empate",
             "autor": "La nueva chirigota de José Pereira Joselini",
             "2024": "Los de la arritmia al 3x4",
             "ciudad": "Cádiz"
@@ -493,7 +493,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "El loco de los empeños",
+            "nombre": "El loco de los empeños",
             "autor": "La comparsa del Rizo",
             "2024": "El cielito de los cómicos",
             "ciudad": "Algeciras"
@@ -503,7 +503,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "Los Malhablao",
+            "nombre": "Los Malhablao",
             "autor": "El coro de Paco Mora y Ramón Ruiz",
             "2024": "La dama de Cádiz",
             "ciudad": "Cádiz"
@@ -511,7 +511,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "No es lo mismo contarlo que vivirlo",
+            "nombre": "No es lo mismo contarlo que vivirlo",
             "autor": "La chirigota del Lacio",
             "2024": "En 2023: La chirigota del Lacio",
             "ciudad": "Cádiz"
@@ -519,7 +519,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "La quinta estación",
+            "nombre": "La quinta estación",
             "autor": "Comparsa del Rau",
             "2024": "En 2020: Mala vida",
             "ciudad": "Alcázar de San Juan"
@@ -527,7 +527,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Abre los ojos",
+            "nombre": "Abre los ojos",
             "autor": "Catalina Balbery y Antonio J. Martín",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -535,7 +535,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "El Cementerio",
+            "nombre": "El Cementerio",
             "autor": "La comparsa del Jona",
             "2024": "Los Sacríficos",
             "ciudad": "Cádiz"
@@ -543,7 +543,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Un muerto muy vivo",
+            "nombre": "Un muerto muy vivo",
             "autor": "La chirigota del Perrichi",
             "2024": "La alegría de Cai (Los Apocalípticos)",
             "ciudad": "Cádiz"
@@ -553,7 +553,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "Son y Sal",
+            "nombre": "Son y Sal",
             "autor": "El coro de Procopio y Lacio",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -561,7 +561,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "De buena tinta",
+            "nombre": "De buena tinta",
             "autor": "José Gutiérrez",
             "2024": "¡Welcome to Cádiz... pichal",
             "ciudad": "Barbate"
@@ -569,7 +569,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los tigres blues band",
+            "nombre": "Los tigres blues band",
             "autor": "La chirigota del Flay",
             "2024": "Nueva agrupación",
             "ciudad": "Sanlúcar"
@@ -577,7 +577,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "La casa de las ilusiones",
+            "nombre": "La casa de las ilusiones",
             "autor": "La comparsa de Malia",
             "2024": "El Apotecario",
             "ciudad": "Algeciras"
@@ -585,7 +585,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Apartamentos turísticos Juani Wainjauas",
+            "nombre": "Apartamentos turísticos Juani Wainjauas",
             "autor": "La chirigota del Selu",
             "2024": "Que ni las hambres las vamos a sentí",
             "ciudad": "Cádiz"
@@ -593,7 +593,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Aquí me quito las penas",
+            "nombre": "Aquí me quito las penas",
             "autor": "Raúl Villanueva y Javier Noriega",
             "2024": "Los ofendiditos",
             "ciudad": "El Puerto Sta. María"
@@ -603,7 +603,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "¡Qué barbaridad!",
+            "nombre": "¡Qué barbaridad!",
             "autor": "El coro del Chapa",
             "2024": "El Gremio",
             "ciudad": "Cádiz"
@@ -611,7 +611,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Tik Tok",
+            "nombre": "Tik Tok",
             "autor": "La chirigota del Pato",
             "2024": "Nueva agrupación",
             "ciudad": "Jerez de la Frontera"
@@ -619,7 +619,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "La tregua",
+            "nombre": "La tregua",
             "autor": "Hermanos Gómez",
             "2024": "Los Atlantes",
             "ciudad": "Chipiona"
@@ -627,7 +627,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Desde mi mundo",
+            "nombre": "Desde mi mundo",
             "autor": "La Comparsa DX",
             "2024": "El barrio calavera",
             "ciudad": "Sevilla"
@@ -635,7 +635,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los enganchao",
+            "nombre": "Los enganchao",
             "autor": "Carlos Nevado, Selu Nieto y S. Gallardo",
             "2024": "El rival más noble de los pelis de Harry Potter",
             "ciudad": "Sevilla"
@@ -643,7 +643,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Las Adelitas",
+            "nombre": "Las Adelitas",
             "autor": "José Cruz Maza",
             "2024": "Nueva agrupación",
             "ciudad": "San Fernando"
@@ -653,7 +653,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "La suerte de Cádiz",
+            "nombre": "La suerte de Cádiz",
             "autor": "El coro de San Fernando",
             "2024": "Los Vitamina",
             "ciudad": "San Fernando"
@@ -661,7 +661,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Tocando madera",
+            "nombre": "Tocando madera",
             "autor": "La comparsa del Tarifa",
             "2024": "La Huella",
             "ciudad": "Tarifa"
@@ -669,7 +669,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Pa colgarea la mía",
+            "nombre": "Pa colgarea la mía",
             "autor": "La chirigota del Popete",
             "2024": "La alegría de mi casa",
             "ciudad": "Sevilla"
@@ -677,7 +677,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los Poderosos",
+            "nombre": "Los Poderosos",
             "autor": "La comparsa de Manuel Cornejo",
             "2024": "La Alegría de Cádiz",
             "ciudad": "Cádiz"
@@ -685,7 +685,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Pa rebeldía mi poesía po cógela que es mía",
+            "nombre": "Pa rebeldía mi poesía po cógela que es mía",
             "autor": "Moisés Serrano y El Lacio",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -693,7 +693,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Puente de Plata",
+            "nombre": "Puente de Plata",
             "autor": "Enrique Rojas, Luis María Rodríguez y Moisés Ochoa",
             "2024": "Nueva agrupación",
             "ciudad": "Chiclana"
@@ -703,7 +703,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "¡Ojú! ¡Qué lío!",
+            "nombre": "¡Ojú! ¡Qué lío!",
             "autor": "El coro de Huelva",
             "2024": "La rendición de los bribones",
             "ciudad": "Huelva"
@@ -711,7 +711,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los Acojonaos",
+            "nombre": "Los Acojonaos",
             "autor": "Antología La sal de coplas",
             "2024": "Nueva agrupación",
             "ciudad": "San Fernando"
@@ -719,7 +719,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los Enemigos",
+            "nombre": "Los Enemigos",
             "autor": "La comparsa de Joseja Puerto",
             "2024": "La Fiesta",
             "ciudad": "Sevilla"
@@ -727,7 +727,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los Cagones",
+            "nombre": "Los Cagones",
             "autor": "La chirigota de Manolín Santander",
             "2024": "La chirigota clásica",
             "ciudad": "Cádiz"
@@ -735,7 +735,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Las costuras del alma",
+            "nombre": "Las costuras del alma",
             "autor": "Jesús Franco",
             "2024": "Nueva agrupación",
             "ciudad": "Tarifa"
@@ -743,7 +743,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Las Precavidas",
+            "nombre": "Las Precavidas",
             "autor": "La chirigota de Anroñito y Fermín",
             "2024": "En 2023: Los desgraciaditos",
             "ciudad": "Puerto Real"
@@ -753,7 +753,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "El gallinero",
+            "nombre": "El gallinero",
             "autor": "El coro de los Estudiantes",
             "2024": "La fiesta de los locos",
             "ciudad": "Cádiz"
@@ -761,7 +761,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Carmen",
+            "nombre": "Carmen",
             "autor": "La comparsa de Dos Hermanas",
             "2024": "El Hum",
             "ciudad": "Dos Hermanas"
@@ -769,7 +769,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los golpes de pecho",
+            "nombre": "Los golpes de pecho",
             "autor": "La chirigota del Sofri",
             "2024": "En 2023: Los incautados",
             "ciudad": "Conil de la Fra."
@@ -777,7 +777,7 @@
         {
             "ranking": "standar",
             "modalidad": "CUARTETO",
-            "2025": "Inclusión o victoria",
+            "nombre": "Inclusión o victoria",
             "autor": "El cuarteto de Álvaro Galán",
             "2024": "Nueva agrupación",
             "ciudad": "El Puerto de Sta. María"
@@ -785,7 +785,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los que reparten a domicilio",
+            "nombre": "Los que reparten a domicilio",
             "autor": "La chirigota de Mairena del Alcor",
             "2024": "En 2020: Las Supermamás",
             "ciudad": "Mairena del Alcor"
@@ -793,7 +793,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los que tocan el cielo",
+            "nombre": "Los que tocan el cielo",
             "autor": "Antología Los Coloretes",
             "2024": "Nueva agrupación",
             "ciudad": "El Puerto"
@@ -803,7 +803,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "Con permiso buenas tardes",
+            "nombre": "Con permiso buenas tardes",
             "autor": "El coro de Ceuta",
             "2024": "Nueva agrupación",
             "ciudad": "Ceuta"
@@ -811,7 +811,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Una chirigota con shoniketh3",
+            "nombre": "Una chirigota con shoniketh3",
             "autor": "Grupo de 'Los plácidos domingos'",
             "2024": "Los plácidos domingos",
             "ciudad": "Cádiz"
@@ -819,7 +819,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "El circo de los sumisos",
+            "nombre": "El circo de los sumisos",
             "autor": "La comparsa onubense de Nelli Conde y Víctor Quintero",
             "2024": "La tinta obrera",
             "ciudad": "Huelva"
@@ -827,7 +827,7 @@
         {
             "ranking": "standar",
             "modalidad": "CUARTETO",
-            "2025": "Esto está de capa caída",
+            "nombre": "Esto está de capa caída",
             "autor": "El cuarteto del Gatica",
             "2024": "¡Qué dolo de muñeca!",
             "ciudad": "Cádiz"
@@ -835,7 +835,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los del otro barrio",
+            "nombre": "Los del otro barrio",
             "autor": "La Comparsa de la Cantera",
             "2024": "Y seguimos cantando",
             "ciudad": "Cádiz"
@@ -843,7 +843,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Al cielo con él",
+            "nombre": "Al cielo con él",
             "autor": "La chirigota de Écija",
             "2024": "Te como tu cara",
             "ciudad": "Écija"
@@ -851,7 +851,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Lo que me sale de la pluma",
+            "nombre": "Lo que me sale de la pluma",
             "autor": "María Jesús Rojas, M. Esperanza Ortiz, Alvaro López e Isabel Columé",
             "2024": "Nueva agrupación",
             "ciudad": "Isla Cristina"
@@ -861,7 +861,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "Asignatura pendiente",
+            "nombre": "Asignatura pendiente",
             "autor": "El coro de Banderas y Monty",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -869,7 +869,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Luna llena",
+            "nombre": "Luna llena",
             "autor": "Manuel Márquez Vela y M. A. López",
             "2024": "En 2023: Veneno",
             "ciudad": "Alcalá de Guadaira"
@@ -877,7 +877,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los James Bond que da gloria verlos",
+            "nombre": "Los James Bond que da gloria verlos",
             "autor": "La chirigota del Yuyu",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -885,7 +885,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "La Rabia",
+            "nombre": "La Rabia",
             "autor": "J.A. Molina y Jesús Moreno",
             "2024": "Nueva agrupación",
             "ciudad": "Chiclana"
@@ -893,7 +893,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Cai, los que van a cantar te lasudan Los Disléxicos",
+            "nombre": "Cai, los que van a cantar te lasudan Los Disléxicos",
             "autor": "La chirigota de los Villegas",
             "2024": "Los exageraos",
             "ciudad": "Cádiz"
@@ -901,7 +901,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los Inadaptados",
+            "nombre": "Los Inadaptados",
             "autor": "Eugenio Sosa y Fran Millán",
             "2024": "Nueva agrupación",
             "ciudad": "Isla Cristina"
@@ -911,7 +911,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "El lado oscuro",
+            "nombre": "El lado oscuro",
             "autor": "El coro de Antonio Rivas y Julio Pardo",
             "2024": "Los luciérnagas",
             "ciudad": "Cádiz"
@@ -919,7 +919,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "El beso más famoso después de Jenni Hermoso",
+            "nombre": "El beso más famoso después de Jenni Hermoso",
             "autor": "La Agrupación y Waxi",
             "2024": "Ciego de tronos",
             "ciudad": "Sevilla"
@@ -927,7 +927,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los Caballas",
+            "nombre": "Los Caballas",
             "autor": "La comparsa de Ceuta",
             "2024": "Los Lengüetas",
             "ciudad": "Ceuta"
@@ -935,7 +935,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Esto ya no hay quien lo pare",
+            "nombre": "Esto ya no hay quien lo pare",
             "autor": "La chirigota de los hermanos Barrena",
             "2024": "En 2020: Me lo vas a comé to",
             "ciudad": "Mérida"
@@ -943,7 +943,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los majaretas de la bicicleta",
+            "nombre": "Los majaretas de la bicicleta",
             "autor": "G. Guerrero y M.A. Vera",
             "2024": "La joya (Marbella)",
             "ciudad": "Marbella"
@@ -951,7 +951,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Vuelvo de gira con Bob Dylan",
+            "nombre": "Vuelvo de gira con Bob Dylan",
             "autor": "La chirigota del Cascana",
             "2024": "No hay verano sin besos",
             "ciudad": "Cádiz"
@@ -961,7 +961,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "La última función",
+            "nombre": "La última función",
             "autor": "El coro de Sevilla",
             "2024": "Despierta",
             "ciudad": "Cádiz"
@@ -969,7 +969,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los Gordos",
+            "nombre": "Los Gordos",
             "autor": "La comparsa de Los Barrios",
             "2024": "Momosapiens",
             "ciudad": "Los Barrios"
@@ -977,7 +977,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los hijos de los millonarios, vulgo los carahotes",
+            "nombre": "Los hijos de los millonarios, vulgo los carahotes",
             "autor": "José Joaquín Martínez y Fran Quintana",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -985,7 +985,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "DesOBDC",
+            "nombre": "DesOBDC",
             "autor": "La comparsa de Germán",
             "2024": "Donde fuimos felices",
             "ciudad": "Cádiz"
@@ -993,7 +993,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Las ovejitas negras",
+            "nombre": "Las ovejitas negras",
             "autor": "La chirigota de Roquetas de Mar",
             "2024": "Me tienes frito",
             "ciudad": "Roquetas de Mar"
@@ -1001,7 +1001,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Más típico no lo hay, de Conil a Cai",
+            "nombre": "Más típico no lo hay, de Conil a Cai",
             "autor": "La comparsa de Conil",
             "2024": "Los poquito a poco",
             "ciudad": "Conil"
@@ -1011,7 +1011,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "Este coro es la polla",
+            "nombre": "Este coro es la polla",
             "autor": "El coro de Valdés",
             "2024": "Nueva agrupación",
             "ciudad": "Cádiz"
@@ -1019,7 +1019,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Ni fu ni fa",
+            "nombre": "Ni fu ni fa",
             "autor": "La chirigota de Luis María",
             "2024": "La historia interminable",
             "ciudad": "Los Palacios"
@@ -1027,7 +1027,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "La voladura",
+            "nombre": "La voladura",
             "autor": "Alberto Giraldo e Iván Giraldo",
             "2024": "Los atrapaos",
             "ciudad": "Huelva"
@@ -1035,7 +1035,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Los Sherijuegos",
+            "nombre": "Los Sherijuegos",
             "autor": "La chirigota del Sheriff",
             "2024": "El Grinch de Cai",
             "ciudad": "Cádiz"
@@ -1043,7 +1043,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Albarracín, la aldea escondida",
+            "nombre": "Albarracín, la aldea escondida",
             "autor": "Marcos Antonio Nogueroles y Horacio Calvillo",
             "2024": "Los Maestros",
             "ciudad": "El Bosque"
@@ -1051,7 +1051,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Venimos de vuelta",
+            "nombre": "Venimos de vuelta",
             "autor": "La chirigota del Tini",
             "2024": "No le doy más vueltas que me caliento",
             "ciudad": "Algeciras"
@@ -1061,7 +1061,7 @@
         {
             "ranking": "standar",
             "modalidad": "CORO",
-            "2025": "La fábrica de...chocolate",
+            "nombre": "La fábrica de...chocolate",
             "autor": "El coro de Barbate",
             "2024": "El baúl de la Piquer",
             "ciudad": "Barbate"
@@ -1069,7 +1069,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "El ejército de Pancho Viña",
+            "nombre": "El ejército de Pancho Viña",
             "autor": "D. Fernández, Pedrosa, R. Rodríguez y A. Rodríguez",
             "2024": "Nueva agrupación",
             "ciudad": "Sanlúcar"
@@ -1077,7 +1077,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Noche de fiesta",
+            "nombre": "Noche de fiesta",
             "autor": "Diego Letrán, M. Nogueroles, S. Martínez y Curro Q.",
             "2024": "Lo mío es peor",
             "ciudad": "Alcalá de Guadaira"
@@ -1085,7 +1085,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "¡Si alguno quiere guerrilla!",
+            "nombre": "¡Si alguno quiere guerrilla!",
             "autor": "La comparsa del Principito",
             "2024": "¡Con lo bonito que era!",
             "ciudad": "Cádiz"
@@ -1093,7 +1093,7 @@
         {
             "ranking": "standar",
             "modalidad": "CHIRIGOTA",
-            "2025": "Quien guarda, halla",
+            "nombre": "Quien guarda, halla",
             "autor": "La chirigota de Miguel Ángel Llull y David Verde",
             "2024": "Los Super-Ego",
             "ciudad": "Cádiz"
@@ -1101,7 +1101,7 @@
         {
             "ranking": "standar",
             "modalidad": "COMPARSA",
-            "2025": "Los Invasores",
+            "nombre": "Los Invasores",
             "autor": "F. Javier Arjona, J. María Puyana y Pablo Gallardo",
             "2024": "En 2023: Tierra",
             "ciudad": "Rota"

@@ -2,12 +2,12 @@ import React from "react";
 import {
   DATE_PRELIMINARES, classNameBoxActive,
   classNameGradient
-} from "../data/ConstantsCoac2024";
+} from "../data/CONSTANT_COAC_2025";
 import { parseDate } from "../utils/handleDate";
 
 interface Group {
   top?: boolean;
-  tipo: string;
+  modalidad: string;
   nombre: string;
   autor: string;
   id?: string;
@@ -69,7 +69,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
             <header className={`flex flex-auto ${classNameGradient}`}>
 
               <div className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
-                Hora / Tipo
+                Hora / modalidad
               </div>
               <div className="px-6 py-3 text-left text-xs font-medium text-white uppercase tracking-wider">
                 Autor / Nombre de agrupación
@@ -97,7 +97,7 @@ const DynamicTable: React.FC<DynamicTableProps> = ({ currentSession, data }) => 
                   <article id={group.id} key={index} className={rowClass}>
                     <div className="px-4 py-2 ">
                       <div className="flex flex-col justify-center h-full w-20">
-                        <span>{group.tipo}</span>
+                        <span>{group.modalidad}</span>
                         <span className={onAirClass}> {isLive ? "📡EN DIRECTO" : formattedTime}</span>
                       </div>
                     </div>
