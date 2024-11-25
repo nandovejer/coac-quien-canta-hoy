@@ -4,7 +4,7 @@ import {
   classNameBoxActive,
   classNameGradient,
 } from "../data/CONSTANT_COAC_2025";
-import { parseDate } from "../utils/handleDate";
+import { parseDate, dateFullFormat } from "../utils/handleDate";
 import { generateUrlYoutube } from "../utils/handleYoutube";
 
 
@@ -69,7 +69,7 @@ const SessionComponent: React.FC<{ date: string; groups: Group[] }> = ({
       <h3
         className={`text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent  ${classNameGradient}`}
       >
-        Sesión - {date}
+        Sesión - {dateFullFormat(date)}
       </h3>
       <div className="overflow-x-auto scrollbar scrollbar-thumb-gray-500 scrollbar-track-gray-100 scrollbar-thin scrollbar-thumb-rounded">
         <section className="min-w-full divide-y divide-gray-200">
@@ -109,7 +109,7 @@ const SessionComponent: React.FC<{ date: string; groups: Group[] }> = ({
 
               return (
                 <article id={group.id} key={index} className={rowClass}>
-                  <div className="px-4 py-2 ">
+                  <div className="px-4 py-2 pr-0 ">
                     <div
                       title="Estimación más o menos teniendo en cuenta actuación más el montaje"
                       className="flex flex-col justify-center h-full w-15 text-xs"
