@@ -19,7 +19,7 @@ interface Group {
   modalidad: string;
   nombre: string;
   autor: string;
-  2004: string;
+  2024?: string;
   ciudad?: string;
   id?: string;
 }
