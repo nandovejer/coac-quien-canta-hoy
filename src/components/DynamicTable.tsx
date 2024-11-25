@@ -5,9 +5,10 @@ import {
   classNameGradient,
 } from "../data/CONSTANT_COAC_2025";
 import { parseDate } from "../utils/handleDate";
+import { generateUrlYoutube } from "../utils/handleYoutube";
+
 
 // tipos
-
 type RankingKey = 'top' | 'ok' | 'standar';
 type RankingStyles = {
   [key in RankingKey]: string;
@@ -18,7 +19,7 @@ interface Group {
   modalidad: string;
   nombre: string;
   autor: string;
-  "2004"?: string;
+  2004: string;
   ciudad?: string;
   id?: string;
 }
@@ -118,19 +119,29 @@ const SessionComponent: React.FC<{ date: string; groups: Group[] }> = ({
                         {" "}
                         {isLive ? "📡EN DIRECTO" : formattedTime + " aprox."}
                       </span>
+                      <span className="py-2 text-ellipsis overflow-hidden">{group.ciudad}</span>
                     </div>
                   </div>
                   <div className="px-4 py-4">
-                    <strong className="text-ellipsis overflow-hidden">
-                      {group.nombre}
-                    </strong>
-                    <p className="sm:text-xl capitalize text-ellipsis overflow-hidden">
+                    <strong className="text-2xl capitalize text-ellipsis overflow-hidden text-pretty">
                       {group.autor
                         ? group.ranking === "top"
-                          ? `🔥${group.autor}`
+                          ? `${group.autor}`
                           : `${group.autor}`
                         : ""}
+                    </strong>
+                    <p className="text-xl l1">
+                      {group.nombre}
                     </p>
+
+                    <small className="text-xs text-ellipsis overflow-hidden w-full text-right">
+                      {
+                        group[2024] === "Nueva agrupación"
+                          ? "Es una nueva agrupación"
+                          : <a className="underline" href={generateUrlYoutube("COAC " + group[2024])}>Anteriormente: {group[2024]} (📺 video) </a>
+                      }
+                    </small>
+
                   </div>
                 </article>
               );
