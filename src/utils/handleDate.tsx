@@ -44,6 +44,32 @@ function formatDateDDmmYYYY(_date: { getDate: () => unknown; getMonth: () => num
 
 
 
+function dateFullFormat(strDate: string): string {
+    const parts: string[] = strDate.split('/');
+    if (parts.length !== 3) {
+        throw new Error('Formato de fecha inválido');
+    }
+
+    const [day, month, year]: number[] = parts.map(Number);
+    const date: Date = new Date(year, month - 1, day);
+
+    if (isNaN(date.getTime())) {
+        throw new Error('Fecha inválida');
+    }
+
+    const opt: Intl.DateTimeFormatOptions = {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+    };
+
+    return date.toLocaleDateString('es-ES', opt);
+    // output: jueves, 23 de enero de 2025
+}
 
 
-export { getCurrentSessionDate, formatDateString, formatDateDDmmYYYY, parseDate };
+
+
+
+export { getCurrentSessionDate, formatDateString, formatDateDDmmYYYY, parseDate, dateFullFormat };

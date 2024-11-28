@@ -4,10 +4,11 @@ import {
   classNameBoxActive,
   classNameGradient,
 } from "../data/CONSTANT_COAC_2025";
-import { parseDate } from "../utils/handleDate";
+import { parseDate, dateFullFormat } from "../utils/handleDate";
+import { generateUrlYoutube } from "../utils/handleYoutube";
+
 
 // tipos
-
 type RankingKey = 'top' | 'ok' | 'standar';
 type RankingStyles = {
   [key in RankingKey]: string;
@@ -18,7 +19,7 @@ interface Group {
   modalidad: string;
   nombre: string;
   autor: string;
-  "2004"?: string;
+  2024?: string;
   ciudad?: string;
   id?: string;
 }
@@ -68,7 +69,7 @@ const SessionComponent: React.FC<{ date: string; groups: Group[] }> = ({
       <h3
         className={`text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent  ${classNameGradient}`}
       >
-        Sesión - {date}
+        Sesión - {dateFullFormat(date)}
       </h3>
       <div className="overflow-x-auto scrollbar scrollbar-thumb-gray-500 scrollbar-track-gray-100 scrollbar-thin scrollbar-thumb-rounded">
         <section className="min-w-full divide-y divide-gray-200">
@@ -108,7 +109,7 @@ const SessionComponent: React.FC<{ date: string; groups: Group[] }> = ({
 
               return (
                 <article id={group.id} key={index} className={rowClass}>
-                  <div className="px-4 py-2 ">
+                  <div className="px-4 py-2 pr-0 ">
                     <div
                       title="Estimación más o menos teniendo en cuenta actuación más el montaje"
                       className="flex flex-col justify-center h-full w-15 text-xs"
@@ -118,19 +119,29 @@ const SessionComponent: React.FC<{ date: string; groups: Group[] }> = ({
                         {" "}
                         {isLive ? "📡EN DIRECTO" : formattedTime + " aprox."}
                       </span>
+                      <span className="py-2 text-ellipsis overflow-hidden">{group.ciudad}</span>
                     </div>
                   </div>
                   <div className="px-4 py-4">
-                    <strong className="text-ellipsis overflow-hidden">
-                      {group.nombre}
-                    </strong>
-                    <p className="sm:text-xl capitalize text-ellipsis overflow-hidden">
+                    <strong className="text-2xl capitalize text-ellipsis overflow-hidden text-pretty">
                       {group.autor
                         ? group.ranking === "top"
-                          ? `🔥${group.autor}`
+                          ? `${group.autor}`
                           : `${group.autor}`
                         : ""}
+                    </strong>
+                    <p className="text-xl l1">
+                      {group.nombre}
                     </p>
+
+                    <small className="text-xs text-ellipsis overflow-hidden w-full text-right">
+                      {
+                        group[2024] === "Nueva agrupación"
+                          ? "Es una nueva agrupación"
+                          : <a className="underline" href={generateUrlYoutube("COAC " + group[2024])}>Anteriormente: {group[2024]} (📺 video) </a>
+                      }
+                    </small>
+
                   </div>
                 </article>
               );
