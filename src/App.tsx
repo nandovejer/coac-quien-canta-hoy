@@ -5,12 +5,8 @@ import DynamicTable from './components/DynamicTable'
 import CountdownTimer from './components/CountdownTimer'
 import MenuHeader from './components/MenuHeader'
 import SearchAuthor from './components/SearchAuthor'
-
 import Footer from './components/Footer'
 import formatAppData from './utils/formatAppData'
-
-
-
 import { getCurrentSessionDate } from './utils/handleDate';
 
 
