@@ -459,6 +459,14 @@
             "ciudad": "Cádiz"
         },
         {
+            "ranking": "standar",
+            "modalidad": "COMPARSA",
+            "nombre": "Sociedad Anónima",
+            "autor": "Comparsa de Morón",
+            "2024": "La suerte está echada",
+            "ciudad": "Morón"
+        },
+        {
             "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los Butaneros chirigota de CAICDC",
@@ -744,7 +752,7 @@
             "ranking": "top",
             "modalidad": "CHIRIGOTA",
             "nombre": "Las Precavidas",
-            "autor": "Chirigota de Anroñito y Fermín",
+            "autor": "Chirigota de Antoñito y Fermín",
             "2024": "En 2023: Los desgraciaditos",
             "ciudad": "Puerto Real"
         }
