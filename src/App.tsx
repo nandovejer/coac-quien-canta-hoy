@@ -1,6 +1,6 @@
 import './App.css'
 import jsonData from './data/COAC_2025_PRE.json'
-import {DATE_PRELIMINARES, MAX_HOUR_SESSION, LIVE_URL_COAC } from './data/CONSTANT_COAC_2025';
+import { DATE_PRELIMINARES, MAX_HOUR_SESSION, LIVE_URL_COAC } from './data/CONSTANT_COAC_2025';
 import DynamicTable from './components/DynamicTable'
 import CountdownTimer from './components/CountdownTimer'
 import MenuHeader from './components/MenuHeader'
@@ -10,11 +10,13 @@ import Footer from './components/Footer'
 import formatAppData from './utils/formatAppData'
 
 
+
 import { getCurrentSessionDate } from './utils/handleDate';
 
 
-function App() {
 
+
+function App() {
   const currentJsonData = formatAppData(jsonData);
   const lastDateSession = getCurrentSessionDate(new Date().toLocaleDateString(), MAX_HOUR_SESSION);
 
