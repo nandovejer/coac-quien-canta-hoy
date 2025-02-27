@@ -1,7 +1,7 @@
 import "./App.css";
-import jsonData from "./data/COAC_2025_SEMI.json";
+import jsonData from "./data/COAC_2025_FINAL.json";
 import {
-  DATE_SEMIFINALES,
+  DATE_FINAL,
   MAX_HOUR_SESSION,
   LIVE_URL_COAC,
 } from "./data/CONSTANT_COAC_2025";
@@ -35,14 +35,14 @@ function App() {
           <h1 className="text-2xl font-extrabold leading-tighter tracking-tighter mb-4 text-white">
             ¿Quién canta hoy en el COAC 2025? <br />{" "}
             <strong className="text-5xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 uppercase">
-              Adultos Semifinales
+              La Gran Final de Adultos
             </strong>
           </h1>
         </hgroup>
       </header>
 
       <main id="siteMain">
-        <CountdownTimer targetDate={DATE_SEMIFINALES} />
+        <CountdownTimer targetDate={DATE_FINAL} />
         <SearchAuthor SearchAuthorData={currentJsonData} />
         <DynamicTable currentSession={lastDateSession} data={currentJsonData} />
       </main>
