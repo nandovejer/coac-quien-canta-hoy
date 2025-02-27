@@ -1,0 +1,432 @@
+{
+  "14/02/2025": [
+    {
+      "ranking": "top",
+      "modalidad": "CORO",
+      "nombre": "Las entrañas de Cádiz",
+      "autor": "El coro de Pedrosa y David Fernández",
+      "2024": "Los Iluminados",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "standar",
+      "modalidad": "COMPARSA",
+      "nombre": "Los trastos",
+      "autor": "Pastrana y Pepito Martínez",
+      "2024": "Pueblejito la frontera",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CUARTETO",
+      "nombre": "Ku kux klan klan",
+      "autor": "El cuarteto del Gago",
+      "2024": "Punk y circo, la lucha continúa",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "standar",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "¡Cariño...que pelusilla me tienes!",
+      "autor": "La chirigota camera del Chicho",
+      "2024": "Cariño necesito mi espacio",
+      "ciudad": "Camas"
+    },
+    {
+      "ranking": "standar",
+      "modalidad": "CORO",
+      "nombre": "Los Guardianes del Dios Momo",
+      "autor": "El coro de Fali Pastrana",
+      "2024": "En 2020: Los Garabatos",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Cuando tu vas yo vengo",
+      "autor": "Chirigota de Carlos Pérez",
+      "2024": "Los que salieron perdiendo",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "ok",
+      "modalidad": "COMPARSA",
+      "nombre": "El corazón de Cádiz",
+      "autor": "Rafael M. Pastrana y Marcos Pastrana",
+      "2024": "Vuelve ya el 3x4",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Los inhumanos",
+      "autor": "Chirigota los bipolares",
+      "2024": "Carnaval me cago en tus muertos",
+      "ciudad": "Cádiz"
+    }
+  ],
+  "15/02/2025": [
+    {
+      "ranking": "top",
+      "modalidad": "CORO",
+      "nombre": "La desafinada",
+      "autor": "El coro de Nandi Migueles",
+      "2024": "Asesinato en el Cádiz Express",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "ok",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Comparsa Los Calaita (fuimos a por tabaco), una chirigota de toda la vida...",
+      "autor": "Chirigota de Ale el Peluca",
+      "2024": "Sácamela de la boca",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "ok",
+      "modalidad": "CUARTETO",
+      "nombre": "Un clásico nunca falla",
+      "autor": "El Cuarteto de la Cantera",
+      "2024": "En 2023: Los vigilantes de la laja",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "COMPARSA",
+      "nombre": "Los Wonderful",
+      "autor": "La comparsa de Fran Quintana",
+      "2024": "El Paseíto",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "standar",
+      "modalidad": "CORO",
+      "nombre": "Ley Natura",
+      "autor": "El coro de Chiclana",
+      "2024": "En 2023: ¡Vive!",
+      "ciudad": "Chiclana"
+    },
+    {
+      "ranking": "ok",
+      "modalidad": "COMPARSA",
+      "nombre": "La Mala",
+      "autor": "Rober Gómez y Pepe Juan Pastrana",
+      "2024": "Cádiz Puro",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Los muchachos del congelao",
+      "autor": "Chirigota del Canijo",
+      "2024": "En 2020: Chernobyl el musical",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "COMPARSA",
+      "nombre": "La Resistencia",
+      "autor": "La comparsa de David Carapapa",
+      "2024": "El Joyero",
+      "ciudad": "Cádiz"
+    }
+  ],
+  "16/02/2025": [
+    {
+      "ranking": "top",
+      "modalidad": "CORO",
+      "nombre": "Cádiz, el show",
+      "autor": "El coro de Luis Rivero",
+      "2024": "El Paraíso",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Los Pimpinela de la plaza Fragela",
+      "autor": "Chirigota del Molina y el Melli",
+      "2024": "La callejera invisible",
+      "ciudad": "Chiclana"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "COMPARSA",
+      "nombre": "Las Perras",
+      "autor": "Las niñas de Alcalá",
+      "2024": "La Consentida",
+      "ciudad": "Alcalá de Guadaira"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CORO",
+      "nombre": "¡Qué barbaridad!",
+      "autor": "El coro del Chapa",
+      "2024": "El Gremio",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Los cenadores rumanos",
+      "autor": "Chirigota de Diego Letrán",
+      "2024": "Los del canal sur",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "COMPARSA",
+      "nombre": "La Tribu",
+      "autor": "La comparsa del Chapa y Raúl Cabrera",
+      "2024": "Los Colgaos",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "standar",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "5 minutitos más",
+      "autor": "Chirigota del Sise",
+      "2024": "Nueva agrupación",
+      "ciudad": "Cádiz"
+    }
+  ],
+  "17/02/2025": [
+    {
+      "ranking": "ok",
+      "modalidad": "CORO",
+      "nombre": "El gallinero",
+      "autor": "El coro de los Estudiantes",
+      "2024": "La fiesta de los locos",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Por si acaso: Las Precavidas",
+      "autor": "Chirigota de Antoñito y Fermín",
+      "2024": "En 2023: Los desgraciaditos",
+      "ciudad": "Puerto Real"
+    },
+    {
+      "ranking": "standar",
+      "modalidad": "COMPARSA",
+      "nombre": "Cositas de Cádiz",
+      "autor": "La comparsa de Los Niños de El Puerto",
+      "2024": "Agüita tapá",
+      "ciudad": "El Puerto de Sta. Mª"
+    },
+    {
+      "ranking": "ok",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Que sea lo que Dios quiera",
+      "autor": "Chirigota de Antoñito Molina",
+      "2024": "El niño de Isabelita 2",
+      "ciudad": "Rota"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "COMPARSA",
+      "nombre": "Las Ratas",
+      "autor": "La comparsa de Bienvenido",
+      "2024": "En 2017: Los Irracionales",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Los hermanos del buen fin",
+      "autor": "Chirigota del Bizcocho",
+      "2024": "La última y nos vamos",
+      "ciudad": "S. José de la Rinconada"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "COMPARSA",
+      "nombre": "¡Payaso!",
+      "autor": "Nene Cheza y zampi",
+      "2024": "La Resbalaera",
+      "ciudad": "Cádiz"
+    }
+  ],
+  "18/02/2025": [
+    {
+      "ranking": "top",
+      "modalidad": "CORO",
+      "nombre": "El lado oscuro",
+      "autor": "El coro de Antonio Rivas y Julio Pardo",
+      "2024": "Los luciérnagas",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "ok",
+      "modalidad": "COMPARSA",
+      "nombre": "La Majadería",
+      "autor": "La comparsa de los hermanos Santander",
+      "2024": "Las Herederas",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Los Butaneros chirigota de CAICDC",
+      "autor": "La nueva chirigota de Kike Remolino y Javi el Ojo",
+      "2024": "Nueva agrupación",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "ok",
+      "modalidad": "COMPARSA",
+      "nombre": "La Valla",
+      "autor": "La comparsa de Marta Ortiz",
+      "2024": "En 2023: Las musas",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Apartamentos turísticos Juani Wainjauas",
+      "autor": "Chirigota del Selu",
+      "2024": "Que ni las hambres las vamos a sentí",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "ok",
+      "modalidad": "COMPARSA",
+      "nombre": "La Chulita",
+      "autor": "La comparsa de Tamara Beardo",
+      "2024": "La Chirogotera",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Los Cagones",
+      "autor": "Chirigota de Manolín Santander",
+      "2024": "La chirigota clásica",
+      "ciudad": "Cádiz"
+    }
+  ],
+  "19/02/2025": [
+    {
+      "ranking": "standar",
+      "modalidad": "CORO",
+      "nombre": "Este coro es la polla",
+      "autor": "El coro de Valdés",
+      "2024": "Coro, Manos arriba!!",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "COMPARSA",
+      "nombre": "El Cementerio",
+      "autor": "La comparsa del Jona",
+      "2024": "Los Sacríficos",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "ok",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Una chirigota con shonikete",
+      "autor": "Grupo de 'Los plácidos domingos'",
+      "2024": "Los plácidos domingos",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "COMPARSA",
+      "nombre": "Los Poderosos",
+      "autor": "La comparsa de Manuel Cornejo",
+      "2024": "La Alegría de Cádiz",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Al cielo con él",
+      "autor": "Chirigota de Écija",
+      "2024": "Te como tu cara",
+      "ciudad": "Écija"
+    },
+    {
+      "ranking": "standar",
+      "modalidad": "COMPARSA",
+      "nombre": "Los Enemigos",
+      "autor": "La comparsa de Joseja Puerto",
+      "2024": "La Fiesta",
+      "ciudad": "Sevilla"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Los James Bond que da gloria verlos",
+      "autor": "Chirigota del Yuyu",
+      "2024": "Nueva agrupación",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "COMPARSA",
+      "nombre": "Los del otro barrio",
+      "autor": "La Comparsa de la Cantera",
+      "2024": "Y seguimos cantando",
+      "ciudad": "Cádiz"
+    }
+  ],
+  "20/02/2025": [
+    {
+      "ranking": "top",
+      "modalidad": "CORO",
+      "nombre": "La fábrica de...chocolate",
+      "autor": "El coro de Barbate",
+      "2024": "El baúl de la Piquer",
+      "ciudad": "Barbate"
+    },
+    {
+      "ranking": "standar",
+      "modalidad": "COMPARSA",
+      "nombre": "Los Caballas",
+      "autor": "La comparsa de Ceuta",
+      "2024": "Los Lengüetas",
+      "ciudad": "Ceuta"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Cai, los que van a cantar te lasudan Los Disléxicos",
+      "autor": "Chirigota de los Villegas",
+      "2024": "Los exageraos",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "COMPARSA",
+      "nombre": "DesOBDC",
+      "autor": "La comparsa de Germán",
+      "2024": "Donde fuimos felices",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "top",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Los Sherijuegos",
+      "autor": "Chirigota del Sheriff",
+      "2024": "El Grinch de Cai",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "standar",
+      "modalidad": "COMPARSA",
+      "nombre": "¡Si alguno quiere guerrilla!",
+      "autor": "La comparsa del Principito",
+      "2024": "¡Con lo bonito que era!",
+      "ciudad": "Cádiz"
+    },
+    {
+      "ranking": "ok",
+      "modalidad": "CHIRIGOTA",
+      "nombre": "Quien guarda, halla",
+      "autor": "Chirigota de Miguel Ángel Llull y David Verde",
+      "2024": "Los Super-Ego",
+      "ciudad": "Cádiz"
+    }
+  ]
+}
