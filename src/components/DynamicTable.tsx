@@ -3,7 +3,7 @@ import {
   DATE_PRELIMINARES,
   classNameBoxActive,
   classNameGradient,
-} from "../data/CONSTANT_COAC_2025";
+} from "../data/CONSTANT_COAC";
 import { parseDate, dateFullFormat } from "../utils/handleDate";
 import { generateUrlYoutube } from "../utils/handleYoutube";
 

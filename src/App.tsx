@@ -1,10 +1,10 @@
 import "./App.css";
-import jsonData from "./data/COAC_2025_FINAL.json";
+import jsonData from "./data/COAC_2026_PRE.json";
 import {
   DATE_FINAL,
   MAX_HOUR_SESSION,
   LIVE_URL_COAC,
-} from "./data/CONSTANT_COAC_2025";
+} from "./data/CONSTANT_COAC";
 import DynamicTable from "./components/DynamicTable";
 import CountdownTimer from "./components/CountdownTimer";
 import MenuHeader from "./components/MenuHeader";
@@ -33,9 +33,10 @@ function App() {
       <header id="siteHeader" className="text-center bg-gray-800">
         <hgroup className="flex justify-center items-center max-w-6xl mx-auto p-6  ">
           <h1 className="text-2xl font-extrabold leading-tighter tracking-tighter mb-4 text-white">
-            ¿Quién canta hoy en el COAC 2025? <br />{" "}
+            ¿Quién canta hoy en el COAC 2026? <br />{" "}
             <strong className="text-5xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 uppercase">
-              La Gran Final de Adultos
+              {/* La Gran Final de Adultos */}
+              Actuaciones de preliminares de adultos
             </strong>
           </h1>
         </hgroup>

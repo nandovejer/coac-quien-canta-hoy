@@ -8,6 +8,12 @@ const LIVE_URL_COAC = "https://www.youtube.com/@ONDACADIZCARNAVAL/streams";
 const MIN_HOUR_SESSION = "20:00";
 const MAX_HOUR_SESSION = "04:00";
 
+const SESSION_PRE = './COAC_2025_PRE.json';
+// const SESSION_CUARTO = './COAC_2025_CUARTOS.json';
+// const SESSION_SEMI = './COAC_2025_SEMI.json';
+// const SESSION_FINAL = './COAC_2025_FINAL.json';
+
+
 const classNameBoxActive = "shadow-2xl rounded-lg bg-white ";
 const classNameGradient = "bg-gradient-to-r from-blue-500 to-teal-400 ";
 const classNameGradientHight =
@@ -26,4 +32,5 @@ export {
   classNameGradient,
   classNameGradientHight,
   classNameGradientDisable,
+  SESSION_PRE
 };
