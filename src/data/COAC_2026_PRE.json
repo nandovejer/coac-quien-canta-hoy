@@ -505,7 +505,7 @@
             "ciudad": "Jerez"
         },
         {
-            "ranking": "top",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "El hombre de hojalata",
             "autor": "Rafael Pastrana y Marcos Pastrana",
@@ -719,7 +719,7 @@
             "ciudad": "Mairena del Alcor"
         },
         {
-            "ranking": "top",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "Los hijos de Cádiz",
             "autor": "Fran Quintana",
@@ -803,7 +803,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "top",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "Lxs Invencibles",
             "autor": "Bea Aragón, Maricharo Suárez y Tamara Beardo",
@@ -927,7 +927,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "top",
+            "ranking": "ok",
             "modalidad": "CHIRIGOTA",
             "nombre": "Los quince en las algas",
             "autor": "Juanlu Cascana, Moisés Botana y Pedro Cozar",
@@ -943,7 +943,7 @@
             "ciudad": "Cádiz"
         },
         {
-            "ranking": "top",
+            "ranking": "ok",
             "modalidad": "COMPARSA",
             "nombre": "La biblioteca",
             "autor": "Manolín Santander y Manuel Cornejo",
