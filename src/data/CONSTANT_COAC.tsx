@@ -7,6 +7,8 @@ const DATE_FINAL = "2025-02-28T20:00:00";
 const LIVE_URL_COAC = "https://www.youtube.com/@ONDACADIZCARNAVAL/streams";
 const MIN_HOUR_SESSION = "20:00";
 const MAX_HOUR_SESSION = "04:00";
+const CURRENNT_YEAR = 2026;
+const LAST_YEAR = 2025;
 
 const SESSION_PRE = './COAC_2025_PRE.json';
 // const SESSION_CUARTO = './COAC_2025_CUARTOS.json';
@@ -32,5 +34,7 @@ export {
   classNameGradient,
   classNameGradientHight,
   classNameGradientDisable,
-  SESSION_PRE
+  SESSION_PRE,
+  CURRENNT_YEAR,
+  LAST_YEAR
 };

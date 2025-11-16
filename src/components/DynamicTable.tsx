@@ -3,13 +3,13 @@ import {
   DATE_PRELIMINARES,
   classNameBoxActive,
   classNameGradient,
+  LAST_YEAR,
 } from "../data/CONSTANT_COAC";
 import { parseDate, dateFullFormat } from "../utils/handleDate";
 import { generateUrlYoutube } from "../utils/handleYoutube";
 
-
 // tipos
-type RankingKey = 'top' | 'ok' | 'standar';
+type RankingKey = "top" | "ok" | "standar";
 type RankingStyles = {
   [key in RankingKey]: string;
 };
@@ -19,7 +19,7 @@ interface Group {
   modalidad: string;
   nombre: string;
   autor: string;
-  2024?: string;
+  LAST_YEAR?: string;
   ciudad?: string;
   id?: string;
 }
@@ -61,6 +61,7 @@ const SessionComponent: React.FC<{ date: string; groups: Group[] }> = ({
   };
 
   return (
+    <>
     <div
       key={date}
       className={`px-4 py-4 coac-session mt-8 ${getSessionClass(date)}`}
@@ -88,14 +89,11 @@ const SessionComponent: React.FC<{ date: string; groups: Group[] }> = ({
               const currentRowTime = new Date(
                 startTime.getTime() + index * timeIncrement * 60000
               );
-              const formattedTime = currentRowTime.toLocaleTimeString(
-                "es-ES",
-                {
-                  hour: "2-digit",
-                  minute: "2-digit",
-                  hourCycle: "h23",
-                }
-              );
+              const formattedTime = currentRowTime.toLocaleTimeString("es-ES", {
+                hour: "2-digit",
+                minute: "2-digit",
+                hourCycle: "h23",
+              });
 
               const isLive = false; // Aquí se podría implementar una lógica para determinar si el grupo está en vivo
 
@@ -119,7 +117,9 @@ const SessionComponent: React.FC<{ date: string; groups: Group[] }> = ({
                         {" "}
                         {isLive ? "📡EN DIRECTO" : formattedTime + " aprox."}
                       </span>
-                      <span className="py-2 text-ellipsis overflow-hidden">{group.ciudad}</span>
+                      <span className="py-2 text-ellipsis overflow-hidden">
+                        {group.ciudad}
+                      </span>
                     </div>
                   </div>
                   <div className="px-4 py-4">
@@ -130,18 +130,20 @@ const SessionComponent: React.FC<{ date: string; groups: Group[] }> = ({
                           : `${group.autor}`
                         : ""}
                     </strong>
-                    <p className="text-xl l1">
-                      {group.nombre}
-                    </p>
+                    <p className="text-xl l1">{group.nombre}</p>
 
                     <small className="text-xs text-ellipsis overflow-hidden w-full text-right">
-                      {
-                        group[2024] === "Nueva agrupación"
-                          ? "Es una nueva agrupación"
-                          : <a className="underline" href={generateUrlYoutube("COAC " + group[2024])}>Anteriormente: {group[2024]} (📺 video) </a>
-                      }
+                      {group[LAST_YEAR] === "Nueva agrupación" ? (
+                        "Es una nueva agrupación"
+                      ) : (
+                        <a
+                          className="underline"
+                          href={generateUrlYoutube("COAC " + group[LAST_YEAR])}
+                        >
+                          Anteriormente: {group[LAST_YEAR]} (📺 video){" "}
+                        </a>
+                      )}
                     </small>
-
                   </div>
                 </article>
               );
@@ -150,6 +152,7 @@ const SessionComponent: React.FC<{ date: string; groups: Group[] }> = ({
         </section>
       </div>
     </div>
+    </>
   );
 };
 
