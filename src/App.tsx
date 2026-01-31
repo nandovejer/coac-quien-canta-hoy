@@ -1,12 +1,11 @@
 import "./App.css";
 import jsonData from "./data/COAC_2026_CUARTOS.json";
 import {
-  DATE_FINAL,
   MAX_HOUR_SESSION,
   LIVE_URL_COAC,
 } from "./data/CONSTANT_COAC";
 import DynamicTable from "./components/DynamicTable";
-import CountdownTimer from "./components/CountdownTimer";
+// import CountdownTimer from "./components/CountdownTimer";
 import MenuHeader from "./components/MenuHeader";
 import SearchAuthor from "./components/SearchAuthor";
 import Footer from "./components/Footer";
