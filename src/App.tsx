@@ -1,5 +1,5 @@
 import "./App.css";
-import jsonData from "./data/COAC_2026_PRE.json";
+import jsonData from "./data/COAC_2026_CUARTOS.json";
 import {
   DATE_FINAL,
   MAX_HOUR_SESSION,
@@ -17,7 +17,7 @@ function App() {
   const currentJsonData = formatAppData(jsonData);
   const lastDateSession = getCurrentSessionDate(
     new Date().toLocaleDateString(),
-    MAX_HOUR_SESSION
+    MAX_HOUR_SESSION,
   );
 
   document.body.classList.add("bg-slate-50");
@@ -36,14 +36,14 @@ function App() {
             ¿Quién canta hoy en el COAC 2026? <br />{" "}
             <strong className="text-5xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 uppercase">
               {/* La Gran Final de Adultos */}
-              Actuaciones de preliminares de adultos
+              Actuaciones de cuartos de adultos
             </strong>
           </h1>
         </hgroup>
       </header>
 
       <main id="siteMain">
-        <CountdownTimer targetDate={DATE_FINAL} />
+        {/* <CountdownTimer targetDate={DATE_FINAL} /> */}
         <SearchAuthor SearchAuthorData={currentJsonData} />
         <DynamicTable currentSession={lastDateSession} data={currentJsonData} />
       </main>
