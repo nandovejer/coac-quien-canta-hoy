@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@9.0.0",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -42,9 +43,6 @@
   ],
   "author": "Nando Muñoz",
   "license": "MIT",
-  "directories": {
-    "doc": "docs"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nandovejer/quien-canta-hoy-en-el-coac.git"

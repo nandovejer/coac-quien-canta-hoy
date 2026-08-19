@@ -1,18 +1,8 @@
 import React, { useState } from 'react';
-
-interface SearchAuthorGrupo {
-    modalidad: string;
-    nombre: string;
-    autor: string;
-    id?: string;
-}
-
-interface SearchAuthorData {
-    [key: string]: SearchAuthorGrupo[];
-}
+import type { SessionsData } from '../types';
 
 interface SearchAuthorProps {
-    SearchAuthorData: SearchAuthorData;
+    SearchAuthorData: SessionsData;
 }
 
 const SearchAuthor: React.FC<SearchAuthorProps> = ({ SearchAuthorData }) => {
@@ -23,13 +13,15 @@ const SearchAuthor: React.FC<SearchAuthorProps> = ({ SearchAuthorData }) => {
         const filtered = grupos.filter(grupo => grupo.autor.toLowerCase().includes(searchTerm.toLowerCase()));
         if (filtered.length) acc[fecha] = filtered;
         return acc;
-    }, {} as SearchAuthorData);
+    }, {} as SessionsData);
 
     return (
         <aside className="bg-white p-6 rounded-lg shadow-lg w-full flex flex-col " id="searchAuthor">
             <h2 className="text-2xl md:text-3xl font-extrabold leading-tighter tracking-tighter mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400  text-center">Busca el autor@ destacad@</h2>
 
+            <label htmlFor="searchAuthorInput" className="sr-only">Buscar por autor@</label>
             <input
+                id="searchAuthorInput"
                 type="text"
                 placeholder="Busca por autor@..."
                 className="w-full border h-12 shadow mb-4 p-2 rounded max-w-4xl m-auto"

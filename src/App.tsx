@@ -1,11 +1,6 @@
 import "./App.css";
-import jsonData from "./data/COAC_2026_CUARTOS.json";
-import {
-  MAX_HOUR_SESSION,
-  LIVE_URL_COAC,
-} from "./data/CONSTANT_COAC";
+import { SEASON, sessions } from "./config/season";
 import DynamicTable from "./components/DynamicTable";
-// import CountdownTimer from "./components/CountdownTimer";
 import MenuHeader from "./components/MenuHeader";
 import SearchAuthor from "./components/SearchAuthor";
 import Footer from "./components/Footer";
@@ -13,38 +8,37 @@ import formatAppData from "./utils/formatAppData";
 import { getCurrentSessionDate } from "./utils/handleDate";
 
 function App() {
-  const currentJsonData = formatAppData(jsonData);
-  const lastDateSession = getCurrentSessionDate(
-    new Date().toLocaleDateString(),
-    MAX_HOUR_SESSION,
-  );
-
-  document.body.classList.add("bg-slate-50");
+  const currentSessionData = formatAppData(sessions, SEASON.year);
+  const lastDateSession = getCurrentSessionDate(SEASON.sessionEndTime);
 
   return (
     <>
       <MenuHeader
         menuData={{
-          liveUrl: LIVE_URL_COAC,
+          liveUrl: SEASON.liveUrl,
           lastDateSession: lastDateSession,
         }}
       />
       <header id="siteHeader" className="text-center bg-gray-800">
         <hgroup className="flex justify-center items-center max-w-6xl mx-auto p-6  ">
           <h1 className="text-2xl font-extrabold leading-tighter tracking-tighter mb-4 text-white">
-            ¿Quién canta hoy en el COAC 2026? <br />{" "}
+            ¿Quién canta hoy en el COAC {SEASON.year}? <br />{" "}
             <strong className="text-5xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400 uppercase">
-              {/* La Gran Final de Adultos */}
-              Actuaciones de cuartos de adultos
+              {SEASON.phaseTitle}
             </strong>
           </h1>
         </hgroup>
       </header>
 
       <main id="siteMain">
-        {/* <CountdownTimer targetDate={DATE_FINAL} /> */}
-        <SearchAuthor SearchAuthorData={currentJsonData} />
-        <DynamicTable currentSession={lastDateSession} data={currentJsonData} />
+        <SearchAuthor SearchAuthorData={currentSessionData} />
+        <DynamicTable
+          currentSession={lastDateSession}
+          data={currentSessionData}
+          previousYearKey={String(SEASON.previousYear)}
+          sessionStartTime={SEASON.sessionStartTime}
+          minutesPerGroup={SEASON.minutesPerGroup}
+        />
       </main>
       <Footer />
     </>
